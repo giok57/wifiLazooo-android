@@ -1,5 +1,7 @@
 package com.jeremyfeinstein.slidingmenu.example;
 
+//TODO revert to splashscreen
+
 import java.net.URLEncoder;
 
 import android.app.AlertDialog;
@@ -36,7 +38,10 @@ public class ExampleListActivity extends SherlockPreferenceActivity {
 		setTitle(R.string.app_name);
 		
 //		Crittercism.init(getApplicationContext(), "508ab27601ed857a20000003");
-		this.addPreferencesFromResource(R.xml.main);
+		Intent intent = new Intent(this, FragmentChangeActivity.class);
+		startActivity(intent);
+		finish();
+		//this.addPreferencesFromResource(R.xml.main);
 	}
 
 	@Override
