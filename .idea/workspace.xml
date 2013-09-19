@@ -5,412 +5,150 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1c4fb21d-2885-4aad-9923-48aa0358e14e" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\example\example.iml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\library-maps-support\library-maps-support.iml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\library\library.iml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\android\support\v4\app\Watson$OnCreateOptionsMenuListener.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\android\support\v4\app\Watson$OnOptionsItemSelectedListener.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\android\support\v4\app\Watson$OnPrepareOptionsMenuListener.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\android\support\v4\app\Watson.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\ActionBarSherlock$Implementation.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\ActionBarSherlock$OnActionModeFinishedListener.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\ActionBarSherlock$OnActionModeStartedListener.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\ActionBarSherlock$OnCreateOptionsMenuListener.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\ActionBarSherlock$OnCreatePanelMenuListener.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\ActionBarSherlock$OnMenuItemSelectedListener.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\ActionBarSherlock$OnOptionsItemSelectedListener.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\ActionBarSherlock$OnPrepareOptionsMenuListener.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\ActionBarSherlock$OnPreparePanelListener.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\ActionBarSherlock.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\BuildConfig.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\R$attr.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\R$bool.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\R$color.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\R$dimen.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\R$drawable.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\R$id.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\R$integer.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\R$layout.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\R$string.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\R$style.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\R$styleable.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\R.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\app\ActionBar$LayoutParams.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\app\ActionBar$OnMenuVisibilityListener.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\app\ActionBar$OnNavigationListener.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\app\ActionBar$Tab.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\app\ActionBar$TabListener.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\app\ActionBar.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\app\SherlockActivity.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\app\SherlockDialogFragment.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\app\SherlockExpandableListActivity.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\app\SherlockFragment.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\app\SherlockFragmentActivity.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\app\SherlockListActivity.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\app\SherlockListFragment.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\app\SherlockPreferenceActivity.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\internal\ActionBarSherlockCompat$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\internal\ActionBarSherlockCompat$ActionModeCallbackWrapper.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\internal\ActionBarSherlockCompat.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\internal\ActionBarSherlockNative$ActionModeCallbackWrapper.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\internal\ActionBarSherlockNative$ActionModeWrapper.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\internal\ActionBarSherlockNative.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\internal\ResourcesCompat.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\internal\app\ActionBarImpl$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\internal\app\ActionBarImpl$2.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\internal\app\ActionBarImpl$ActionModeImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\internal\app\ActionBarImpl$TabImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\internal\app\ActionBarImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\internal\app\ActionBarWrapper$TabWrapper.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\internal\app\ActionBarWrapper.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\internal\nineoldandroids\animation\Animator$AnimatorListener.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\internal\nineoldandroids\animation\Animator.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\internal\nineoldandroids\animation\AnimatorListenerAdapter.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\internal\nineoldandroids\animation\AnimatorSet$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\internal\nineoldandroids\animation\AnimatorSet$AnimatorSetListener.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\internal\nineoldandroids\animation\AnimatorSet$Builder.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\internal\nineoldandroids\animation\AnimatorSet$Dependency.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\internal\nineoldandroids\animation\AnimatorSet$DependencyListener.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\internal\nineoldandroids\animation\AnimatorSet$Node.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\internal\nineoldandroids\animation\AnimatorSet.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\internal\nineoldandroids\animation\FloatEvaluator.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\internal\nineoldandroids\animation\FloatKeyframeSet.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\internal\nineoldandroids\animation\IntEvaluator.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\internal\nineoldandroids\animation\IntKeyframeSet.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\internal\nineoldandroids\animation\Keyframe$FloatKeyframe.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\internal\nineoldandroids\animation\Keyframe$IntKeyframe.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\internal\nineoldandroids\animation\Keyframe$ObjectKeyframe.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\internal\nineoldandroids\animation\Keyframe.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\internal\nineoldandroids\animation\KeyframeSet.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\internal\nineoldandroids\animation\ObjectAnimator.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\internal\nineoldandroids\animation\PropertyValuesHolder$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\internal\nineoldandroids\animation\PropertyValuesHolder$FloatPropertyValuesHolder.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\internal\nineoldandroids\animation\PropertyValuesHolder$IntPropertyValuesHolder.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\internal\nineoldandroids\animation\PropertyValuesHolder.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\internal\nineoldandroids\animation\TypeEvaluator.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\internal\nineoldandroids\animation\ValueAnimator$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\internal\nineoldandroids\animation\ValueAnimator$2.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\internal\nineoldandroids\animation\ValueAnimator$3.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\internal\nineoldandroids\animation\ValueAnimator$4.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\internal\nineoldandroids\animation\ValueAnimator$5.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\internal\nineoldandroids\animation\ValueAnimator$AnimationHandler.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\internal\nineoldandroids\animation\ValueAnimator$AnimatorUpdateListener.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\internal\nineoldandroids\animation\ValueAnimator.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\internal\nineoldandroids\view\NineViewGroup.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\internal\nineoldandroids\view\animation\AnimatorProxy.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\internal\nineoldandroids\widget\NineFrameLayout.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\internal\nineoldandroids\widget\NineHorizontalScrollView.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\internal\nineoldandroids\widget\NineLinearLayout.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\internal\view\ActionProviderWrapper.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\internal\view\StandaloneActionMode.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\internal\view\View_HasStateListenerSupport.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\internal\view\View_OnAttachStateChangeListener.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\internal\view\menu\ActionMenu.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\internal\view\menu\ActionMenuItem.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\internal\view\menu\ActionMenuItemView.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\internal\view\menu\ActionMenuPresenter$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\internal\view\menu\ActionMenuPresenter$ActionButtonSubmenu.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\internal\view\menu\ActionMenuPresenter$HasPermanentMenuKey.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\internal\view\menu\ActionMenuPresenter$OpenOverflowRunnable.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\internal\view\menu\ActionMenuPresenter$OverflowMenuButton.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\internal\view\menu\ActionMenuPresenter$OverflowPopup.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\internal\view\menu\ActionMenuPresenter$PopupPresenterCallback.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\internal\view\menu\ActionMenuPresenter$SavedState$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\internal\view\menu\ActionMenuPresenter$SavedState.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\internal\view\menu\ActionMenuPresenter.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\internal\view\menu\ActionMenuView$ActionMenuChildView.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\internal\view\menu\ActionMenuView$LayoutParams.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\internal\view\menu\ActionMenuView.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\internal\view\menu\BaseMenuPresenter.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\internal\view\menu\ListMenuItemView.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\internal\view\menu\MenuBuilder$Callback.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\internal\view\menu\MenuBuilder$ItemInvoker.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\internal\view\menu\MenuBuilder.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\internal\view\menu\MenuItemImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\internal\view\menu\MenuItemWrapper$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\internal\view\menu\MenuItemWrapper.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\internal\view\menu\MenuPopupHelper$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\internal\view\menu\MenuPopupHelper$ExpandedIndexObserver.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\internal\view\menu\MenuPopupHelper$MenuAdapter.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\internal\view\menu\MenuPopupHelper.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\internal\view\menu\MenuPresenter$Callback.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\internal\view\menu\MenuPresenter.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\internal\view\menu\MenuView$ItemView.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\internal\view\menu\MenuView.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\internal\view\menu\MenuWrapper.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\internal\view\menu\SubMenuBuilder.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\internal\view\menu\SubMenuWrapper.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\internal\widget\AbsActionBarView$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\internal\widget\AbsActionBarView$VisibilityAnimListener.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\internal\widget\AbsActionBarView.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\internal\widget\ActionBarContainer.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\internal\widget\ActionBarContextView$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\internal\widget\ActionBarContextView.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\internal\widget\ActionBarView$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\internal\widget\ActionBarView$2.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\internal\widget\ActionBarView$3.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\internal\widget\ActionBarView$ExpandedActionViewMenuPresenter.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\internal\widget\ActionBarView$HomeView.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\internal\widget\ActionBarView$SavedState$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\internal\widget\ActionBarView$SavedState.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\internal\widget\ActionBarView.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\internal\widget\CapitalizingButton.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\internal\widget\CapitalizingTextView.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\internal\widget\CollapsibleActionViewWrapper.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\internal\widget\IcsAbsSpinner$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\internal\widget\IcsAbsSpinner$RecycleBin.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\internal\widget\IcsAbsSpinner$SavedState$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\internal\widget\IcsAbsSpinner$SavedState.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\internal\widget\IcsAbsSpinner.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\internal\widget\IcsAdapterView$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\internal\widget\IcsAdapterView$AdapterContextMenuInfo.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\internal\widget\IcsAdapterView$AdapterDataSetObserver.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\internal\widget\IcsAdapterView$OnItemLongClickListener.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\internal\widget\IcsAdapterView$OnItemSelectedListener.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\internal\widget\IcsAdapterView$SelectionNotifier.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\internal\widget\IcsAdapterView.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\internal\widget\IcsColorDrawable.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\internal\widget\IcsLinearLayout.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\internal\widget\IcsListPopupWindow$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\internal\widget\IcsListPopupWindow$DropDownListView.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\internal\widget\IcsListPopupWindow$ListSelectorHider.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\internal\widget\IcsListPopupWindow$PopupDataSetObserver.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\internal\widget\IcsListPopupWindow$PopupScrollListener.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\internal\widget\IcsListPopupWindow$PopupTouchInterceptor.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\internal\widget\IcsListPopupWindow$ResizePopupRunnable.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\internal\widget\IcsListPopupWindow.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\internal\widget\IcsProgressBar$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\internal\widget\IcsProgressBar$AccessibilityEventSender.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\internal\widget\IcsProgressBar$RefreshProgressRunnable.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\internal\widget\IcsProgressBar$SavedState$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\internal\widget\IcsProgressBar$SavedState.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\internal\widget\IcsProgressBar.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\internal\widget\IcsSpinner$DropDownAdapter.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\internal\widget\IcsSpinner$DropdownPopup$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\internal\widget\IcsSpinner$DropdownPopup.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\internal\widget\IcsSpinner$SpinnerPopup.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\internal\widget\IcsSpinner.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\internal\widget\IcsToast.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\internal\widget\IcsView.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\internal\widget\PopupWindowCompat$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\internal\widget\PopupWindowCompat.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\internal\widget\ScrollingTabContainerView$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\internal\widget\ScrollingTabContainerView$TabAdapter.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\internal\widget\ScrollingTabContainerView$TabClickListener.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\internal\widget\ScrollingTabContainerView$TabView.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\internal\widget\ScrollingTabContainerView$VisibilityAnimListener.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\internal\widget\ScrollingTabContainerView.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\internal\widget\TabsLinearLayout.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\view\ActionMode$Callback.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\view\ActionMode.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\view\ActionProvider$SubUiVisibilityListener.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\view\ActionProvider.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\view\CollapsibleActionView.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\view\Menu.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\view\MenuInflater$InflatedOnMenuItemClickListener.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\view\MenuInflater$MenuState.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\view\MenuInflater.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\view\MenuItem$OnActionExpandListener.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\view\MenuItem$OnMenuItemClickListener.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\view\MenuItem.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\view\SubMenu.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\view\Window$Callback.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\view\Window.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\widget\ActivityChooserModel$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\widget\ActivityChooserModel$ActivityChooserModelClient.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\widget\ActivityChooserModel$ActivityResolveInfo.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\widget\ActivityChooserModel$ActivitySorter.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\widget\ActivityChooserModel$DefaultSorter.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\widget\ActivityChooserModel$HistoricalRecord.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\widget\ActivityChooserModel$HistoryLoader$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\widget\ActivityChooserModel$HistoryLoader.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\widget\ActivityChooserModel$HistoryPersister.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\widget\ActivityChooserModel$OnChooseActivityListener.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\widget\ActivityChooserModel.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\widget\ActivityChooserView$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\widget\ActivityChooserView$2.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\widget\ActivityChooserView$3.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\widget\ActivityChooserView$ActivityChooserViewAdapter.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\widget\ActivityChooserView$Callbacks.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\widget\ActivityChooserView$SetActivated.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\widget\ActivityChooserView.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\widget\SearchView$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\widget\SearchView$10.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\widget\SearchView$11.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\widget\SearchView$12.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\widget\SearchView$2.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\widget\SearchView$3.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\widget\SearchView$4.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\widget\SearchView$5.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\widget\SearchView$6.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\widget\SearchView$7.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\widget\SearchView$8.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\widget\SearchView$9.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\widget\SearchView$OnCloseListener.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\widget\SearchView$OnQueryTextListener.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\widget\SearchView$OnSuggestionListener.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\widget\SearchView$SearchAutoComplete.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\widget\SearchView.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\widget\ShareActionProvider$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\widget\ShareActionProvider$OnShareTargetSelectedListener.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\widget\ShareActionProvider$ShareAcitivityChooserModelPolicy.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\widget\ShareActionProvider$ShareMenuItemOnMenuItemClickListener.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\widget\ShareActionProvider.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\widget\SuggestionsAdapter$ChildViewCache.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\actionbarsherlock\com\actionbarsherlock\widget\SuggestionsAdapter.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\slidingmenu\com\actionbarsherlock\BuildConfig.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\slidingmenu\com\actionbarsherlock\R$attr.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\slidingmenu\com\actionbarsherlock\R$bool.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\slidingmenu\com\actionbarsherlock\R$color.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\slidingmenu\com\actionbarsherlock\R$dimen.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\slidingmenu\com\actionbarsherlock\R$drawable.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\slidingmenu\com\actionbarsherlock\R$id.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\slidingmenu\com\actionbarsherlock\R$integer.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\slidingmenu\com\actionbarsherlock\R$layout.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\slidingmenu\com\actionbarsherlock\R$string.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\slidingmenu\com\actionbarsherlock\R$style.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\slidingmenu\com\actionbarsherlock\R$styleable.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\slidingmenu\com\actionbarsherlock\R.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\slidingmenu\com\jeremyfeinstein\slidingmenu\lib\BuildConfig.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\slidingmenu\com\jeremyfeinstein\slidingmenu\lib\CanvasTransformerBuilder$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\slidingmenu\com\jeremyfeinstein\slidingmenu\lib\CanvasTransformerBuilder$2.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\slidingmenu\com\jeremyfeinstein\slidingmenu\lib\CanvasTransformerBuilder$3.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\slidingmenu\com\jeremyfeinstein\slidingmenu\lib\CanvasTransformerBuilder$4.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\slidingmenu\com\jeremyfeinstein\slidingmenu\lib\CanvasTransformerBuilder$5.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\slidingmenu\com\jeremyfeinstein\slidingmenu\lib\CanvasTransformerBuilder$6.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\slidingmenu\com\jeremyfeinstein\slidingmenu\lib\CanvasTransformerBuilder.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\slidingmenu\com\jeremyfeinstein\slidingmenu\lib\CustomViewAbove$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\slidingmenu\com\jeremyfeinstein\slidingmenu\lib\CustomViewAbove$2.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\slidingmenu\com\jeremyfeinstein\slidingmenu\lib\CustomViewAbove$OnPageChangeListener.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\slidingmenu\com\jeremyfeinstein\slidingmenu\lib\CustomViewAbove$SimpleOnPageChangeListener.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\slidingmenu\com\jeremyfeinstein\slidingmenu\lib\CustomViewAbove.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\slidingmenu\com\jeremyfeinstein\slidingmenu\lib\CustomViewBehind.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\slidingmenu\com\jeremyfeinstein\slidingmenu\lib\MenuInterface.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\slidingmenu\com\jeremyfeinstein\slidingmenu\lib\R$attr.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\slidingmenu\com\jeremyfeinstein\slidingmenu\lib\R$bool.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\slidingmenu\com\jeremyfeinstein\slidingmenu\lib\R$color.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\slidingmenu\com\jeremyfeinstein\slidingmenu\lib\R$dimen.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\slidingmenu\com\jeremyfeinstein\slidingmenu\lib\R$drawable.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\slidingmenu\com\jeremyfeinstein\slidingmenu\lib\R$id.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\slidingmenu\com\jeremyfeinstein\slidingmenu\lib\R$integer.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\slidingmenu\com\jeremyfeinstein\slidingmenu\lib\R$layout.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\slidingmenu\com\jeremyfeinstein\slidingmenu\lib\R$string.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\slidingmenu\com\jeremyfeinstein\slidingmenu\lib\R$style.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\slidingmenu\com\jeremyfeinstein\slidingmenu\lib\R$styleable.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\slidingmenu\com\jeremyfeinstein\slidingmenu\lib\R.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\slidingmenu\com\jeremyfeinstein\slidingmenu\lib\SlidingMenu$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\slidingmenu\com\jeremyfeinstein\slidingmenu\lib\SlidingMenu$2.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\slidingmenu\com\jeremyfeinstein\slidingmenu\lib\SlidingMenu$CanvasTransformer.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\slidingmenu\com\jeremyfeinstein\slidingmenu\lib\SlidingMenu$OnCloseListener.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\slidingmenu\com\jeremyfeinstein\slidingmenu\lib\SlidingMenu$OnClosedListener.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\slidingmenu\com\jeremyfeinstein\slidingmenu\lib\SlidingMenu$OnOpenListener.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\slidingmenu\com\jeremyfeinstein\slidingmenu\lib\SlidingMenu$OnOpenedListener.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\slidingmenu\com\jeremyfeinstein\slidingmenu\lib\SlidingMenu$SavedState$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\slidingmenu\com\jeremyfeinstein\slidingmenu\lib\SlidingMenu$SavedState.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\slidingmenu\com\jeremyfeinstein\slidingmenu\lib\SlidingMenu.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\slidingmenu\com\jeremyfeinstein\slidingmenu\lib\app\SlidingActivity.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\slidingmenu\com\jeremyfeinstein\slidingmenu\lib\app\SlidingActivityBase.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\slidingmenu\com\jeremyfeinstein\slidingmenu\lib\app\SlidingActivityHelper$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\slidingmenu\com\jeremyfeinstein\slidingmenu\lib\app\SlidingActivityHelper.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\slidingmenu\com\jeremyfeinstein\slidingmenu\lib\app\SlidingFragmentActivity.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\slidingmenu\com\jeremyfeinstein\slidingmenu\lib\app\SlidingListActivity.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\slidingmenu\com\jeremyfeinstein\slidingmenu\lib\app\SlidingPreferenceActivity.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\wifiLazooo\com\actionbarsherlock\BuildConfig.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\wifiLazooo\com\actionbarsherlock\R$array.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\wifiLazooo\com\actionbarsherlock\R$attr.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\wifiLazooo\com\actionbarsherlock\R$bool.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\wifiLazooo\com\actionbarsherlock\R$color.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\wifiLazooo\com\actionbarsherlock\R$dimen.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\wifiLazooo\com\actionbarsherlock\R$drawable.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\wifiLazooo\com\actionbarsherlock\R$id.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\wifiLazooo\com\actionbarsherlock\R$integer.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\wifiLazooo\com\actionbarsherlock\R$layout.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\wifiLazooo\com\actionbarsherlock\R$menu.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\wifiLazooo\com\actionbarsherlock\R$string.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\wifiLazooo\com\actionbarsherlock\R$style.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\wifiLazooo\com\actionbarsherlock\R$styleable.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\wifiLazooo\com\actionbarsherlock\R$xml.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\wifiLazooo\com\actionbarsherlock\R.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\wifiLazooo\com\jeremyfeinstein\slidingmenu\example\BuildConfig.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\wifiLazooo\com\jeremyfeinstein\slidingmenu\example\R$array.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\wifiLazooo\com\jeremyfeinstein\slidingmenu\example\R$attr.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\wifiLazooo\com\jeremyfeinstein\slidingmenu\example\R$bool.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\wifiLazooo\com\jeremyfeinstein\slidingmenu\example\R$color.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\wifiLazooo\com\jeremyfeinstein\slidingmenu\example\R$dimen.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\wifiLazooo\com\jeremyfeinstein\slidingmenu\example\R$drawable.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\wifiLazooo\com\jeremyfeinstein\slidingmenu\example\R$id.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\wifiLazooo\com\jeremyfeinstein\slidingmenu\example\R$integer.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\wifiLazooo\com\jeremyfeinstein\slidingmenu\example\R$layout.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\wifiLazooo\com\jeremyfeinstein\slidingmenu\example\R$menu.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\wifiLazooo\com\jeremyfeinstein\slidingmenu\example\R$string.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\wifiLazooo\com\jeremyfeinstein\slidingmenu\example\R$style.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\wifiLazooo\com\jeremyfeinstein\slidingmenu\example\R$styleable.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\wifiLazooo\com\jeremyfeinstein\slidingmenu\example\R$xml.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\wifiLazooo\com\jeremyfeinstein\slidingmenu\example\R.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\wifiLazooo\com\jeremyfeinstein\slidingmenu\lib\BuildConfig.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\wifiLazooo\com\jeremyfeinstein\slidingmenu\lib\R$array.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\wifiLazooo\com\jeremyfeinstein\slidingmenu\lib\R$attr.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\wifiLazooo\com\jeremyfeinstein\slidingmenu\lib\R$bool.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\wifiLazooo\com\jeremyfeinstein\slidingmenu\lib\R$color.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\wifiLazooo\com\jeremyfeinstein\slidingmenu\lib\R$dimen.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\wifiLazooo\com\jeremyfeinstein\slidingmenu\lib\R$drawable.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\wifiLazooo\com\jeremyfeinstein\slidingmenu\lib\R$id.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\wifiLazooo\com\jeremyfeinstein\slidingmenu\lib\R$integer.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\wifiLazooo\com\jeremyfeinstein\slidingmenu\lib\R$layout.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\wifiLazooo\com\jeremyfeinstein\slidingmenu\lib\R$menu.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\wifiLazooo\com\jeremyfeinstein\slidingmenu\lib\R$string.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\wifiLazooo\com\jeremyfeinstein\slidingmenu\lib\R$style.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\wifiLazooo\com\jeremyfeinstein\slidingmenu\lib\R$styleable.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\wifiLazooo\com\jeremyfeinstein\slidingmenu\lib\R$xml.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\wifiLazooo\com\jeremyfeinstein\slidingmenu\lib\R.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\wifiLazooo\com\lazooo\wifi\android\application\AttachExample.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\wifiLazooo\com\lazooo\wifi\android\application\BaseActivity.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\wifiLazooo\com\lazooo\wifi\android\application\ExampleListActivity.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\wifiLazooo\com\lazooo\wifi\android\application\LeftAndRightActivity.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\wifiLazooo\com\lazooo\wifi\android\application\PropertiesActivity$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\wifiLazooo\com\lazooo\wifi\android\application\PropertiesActivity$2.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\wifiLazooo\com\lazooo\wifi\android\application\PropertiesActivity$3.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\wifiLazooo\com\lazooo\wifi\android\application\PropertiesActivity$4.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\wifiLazooo\com\lazooo\wifi\android\application\PropertiesActivity$5.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\wifiLazooo\com\lazooo\wifi\android\application\PropertiesActivity$6.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\wifiLazooo\com\lazooo\wifi\android\application\PropertiesActivity$7.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\wifiLazooo\com\lazooo\wifi\android\application\PropertiesActivity$8.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\wifiLazooo\com\lazooo\wifi\android\application\PropertiesActivity.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\wifiLazooo\com\lazooo\wifi\android\application\SampleListFragment$SampleAdapter.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\wifiLazooo\com\lazooo\wifi\android\application\SampleListFragment$SampleItem.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\wifiLazooo\com\lazooo\wifi\android\application\SampleListFragment.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\wifiLazooo\com\lazooo\wifi\android\application\SlidingContent.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\wifiLazooo\com\lazooo\wifi\android\application\SlidingTitleBar.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\wifiLazooo\com\lazooo\wifi\android\application\Util.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\wifiLazooo\com\lazooo\wifi\android\application\ViewPagerActivity$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\wifiLazooo\com\lazooo\wifi\android\application\ViewPagerActivity$ColorPagerAdapter.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\wifiLazooo\com\lazooo\wifi\android\application\ViewPagerActivity.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\wifiLazooo\com\lazooo\wifi\android\application\anim\CustomAnimation.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\wifiLazooo\com\lazooo\wifi\android\application\anim\CustomScaleAnimation$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\wifiLazooo\com\lazooo\wifi\android\application\anim\CustomScaleAnimation.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\wifiLazooo\com\lazooo\wifi\android\application\anim\CustomSlideAnimation$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\wifiLazooo\com\lazooo\wifi\android\application\anim\CustomSlideAnimation$2.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\wifiLazooo\com\lazooo\wifi\android\application\anim\CustomSlideAnimation.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\wifiLazooo\com\lazooo\wifi\android\application\anim\CustomZoomAnimation$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\wifiLazooo\com\lazooo\wifi\android\application\anim\CustomZoomAnimation.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\wifiLazooo\com\lazooo\wifi\android\application\fragments\BirdActivity$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\wifiLazooo\com\lazooo\wifi\android\application\fragments\BirdActivity$2.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\wifiLazooo\com\lazooo\wifi\android\application\fragments\BirdActivity.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\wifiLazooo\com\lazooo\wifi\android\application\fragments\BirdGridFragment$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\wifiLazooo\com\lazooo\wifi\android\application\fragments\BirdGridFragment$GridAdapter.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\wifiLazooo\com\lazooo\wifi\android\application\fragments\BirdGridFragment.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\wifiLazooo\com\lazooo\wifi\android\application\fragments\BirdMenuFragment.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\wifiLazooo\com\lazooo\wifi\android\application\fragments\ColorFragment.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\wifiLazooo\com\lazooo\wifi\android\application\fragments\ColorMenuFragment.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\wifiLazooo\com\lazooo\wifi\android\application\fragments\FragmentChangeActivity.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\wifiLazooo\com\lazooo\wifi\android\application\fragments\ResponsiveUIActivity$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\wifiLazooo\com\lazooo\wifi\android\application\fragments\ResponsiveUIActivity.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\wifiLazooo\com\lazooo\wifi\android\service\LazoooWifiService$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\wifiLazooo\com\lazooo\wifi\android\service\LazoooWifiService$2.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\wifiLazooo\com\lazooo\wifi\android\service\LazoooWifiService.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\wifiLazooo\com\lazooo\wifi\android\service\TestReceiver.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\wifiLazooo\wifiLazooo.apk" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\litia_000\Documents\GitHub\wifiLazooo-android\out\production\wifiLazooo\wifiLazooo.unaligned.apk" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/google-play-services_lib/res/drawable-hdpi/common_signin_btn_icon_disabled_dark.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/google-play-services_lib/res/drawable-mdpi/common_signin_btn_icon_disabled_dark.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/google-play-services_lib/res/drawable-xhdpi/common_signin_btn_icon_disabled_dark.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/google-play-services_lib/res/drawable-hdpi/common_signin_btn_icon_disabled_focus_dark.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/google-play-services_lib/res/drawable-mdpi/common_signin_btn_icon_disabled_focus_dark.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/google-play-services_lib/res/drawable-xhdpi/common_signin_btn_icon_disabled_focus_dark.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/google-play-services_lib/res/drawable-hdpi/common_signin_btn_icon_disabled_focus_light.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/google-play-services_lib/res/drawable-mdpi/common_signin_btn_icon_disabled_focus_light.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/google-play-services_lib/res/drawable-xhdpi/common_signin_btn_icon_disabled_focus_light.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/google-play-services_lib/res/drawable-hdpi/common_signin_btn_icon_disabled_light.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/google-play-services_lib/res/drawable-mdpi/common_signin_btn_icon_disabled_light.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/google-play-services_lib/res/drawable-xhdpi/common_signin_btn_icon_disabled_light.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/google-play-services_lib/res/drawable-hdpi/common_signin_btn_icon_focus_dark.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/google-play-services_lib/res/drawable-mdpi/common_signin_btn_icon_focus_dark.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/google-play-services_lib/res/drawable-xhdpi/common_signin_btn_icon_focus_dark.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/google-play-services_lib/res/drawable-hdpi/common_signin_btn_icon_focus_light.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/google-play-services_lib/res/drawable-mdpi/common_signin_btn_icon_focus_light.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/google-play-services_lib/res/drawable-xhdpi/common_signin_btn_icon_focus_light.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/google-play-services_lib/res/drawable-hdpi/common_signin_btn_icon_normal_dark.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/google-play-services_lib/res/drawable-mdpi/common_signin_btn_icon_normal_dark.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/google-play-services_lib/res/drawable-xhdpi/common_signin_btn_icon_normal_dark.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/google-play-services_lib/res/drawable-hdpi/common_signin_btn_icon_normal_light.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/google-play-services_lib/res/drawable-mdpi/common_signin_btn_icon_normal_light.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/google-play-services_lib/res/drawable-xhdpi/common_signin_btn_icon_normal_light.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/google-play-services_lib/res/drawable-hdpi/common_signin_btn_icon_pressed_dark.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/google-play-services_lib/res/drawable-mdpi/common_signin_btn_icon_pressed_dark.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/google-play-services_lib/res/drawable-xhdpi/common_signin_btn_icon_pressed_dark.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/google-play-services_lib/res/drawable-hdpi/common_signin_btn_icon_pressed_light.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/google-play-services_lib/res/drawable-mdpi/common_signin_btn_icon_pressed_light.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/google-play-services_lib/res/drawable-xhdpi/common_signin_btn_icon_pressed_light.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/google-play-services_lib/res/drawable-hdpi/common_signin_btn_text_disabled_dark.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/google-play-services_lib/res/drawable-mdpi/common_signin_btn_text_disabled_dark.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/google-play-services_lib/res/drawable-xhdpi/common_signin_btn_text_disabled_dark.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/google-play-services_lib/res/drawable-hdpi/common_signin_btn_text_disabled_focus_dark.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/google-play-services_lib/res/drawable-mdpi/common_signin_btn_text_disabled_focus_dark.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/google-play-services_lib/res/drawable-xhdpi/common_signin_btn_text_disabled_focus_dark.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/google-play-services_lib/res/drawable-hdpi/common_signin_btn_text_disabled_focus_light.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/google-play-services_lib/res/drawable-mdpi/common_signin_btn_text_disabled_focus_light.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/google-play-services_lib/res/drawable-xhdpi/common_signin_btn_text_disabled_focus_light.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/google-play-services_lib/res/drawable-hdpi/common_signin_btn_text_disabled_light.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/google-play-services_lib/res/drawable-mdpi/common_signin_btn_text_disabled_light.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/google-play-services_lib/res/drawable-xhdpi/common_signin_btn_text_disabled_light.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/google-play-services_lib/res/drawable-hdpi/common_signin_btn_text_focus_dark.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/google-play-services_lib/res/drawable-mdpi/common_signin_btn_text_focus_dark.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/google-play-services_lib/res/drawable-xhdpi/common_signin_btn_text_focus_dark.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/google-play-services_lib/res/drawable-hdpi/common_signin_btn_text_focus_light.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/google-play-services_lib/res/drawable-mdpi/common_signin_btn_text_focus_light.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/google-play-services_lib/res/drawable-xhdpi/common_signin_btn_text_focus_light.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/google-play-services_lib/res/drawable-hdpi/common_signin_btn_text_normal_dark.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/google-play-services_lib/res/drawable-mdpi/common_signin_btn_text_normal_dark.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/google-play-services_lib/res/drawable-xhdpi/common_signin_btn_text_normal_dark.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/google-play-services_lib/res/drawable-hdpi/common_signin_btn_text_normal_light.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/google-play-services_lib/res/drawable-mdpi/common_signin_btn_text_normal_light.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/google-play-services_lib/res/drawable-xhdpi/common_signin_btn_text_normal_light.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/google-play-services_lib/res/drawable-hdpi/common_signin_btn_text_pressed_dark.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/google-play-services_lib/res/drawable-mdpi/common_signin_btn_text_pressed_dark.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/google-play-services_lib/res/drawable-xhdpi/common_signin_btn_text_pressed_dark.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/google-play-services_lib/res/drawable-hdpi/common_signin_btn_text_pressed_light.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/google-play-services_lib/res/drawable-mdpi/common_signin_btn_text_pressed_light.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/google-play-services_lib/res/drawable-xhdpi/common_signin_btn_text_pressed_light.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/google-play-services_lib/libs/google-play-services.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/google-play-services_lib/res/drawable-hdpi/ic_plusone_medium_off_client.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/google-play-services_lib/res/drawable-mdpi/ic_plusone_medium_off_client.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/google-play-services_lib/res/drawable-xhdpi/ic_plusone_medium_off_client.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/google-play-services_lib/res/drawable-hdpi/ic_plusone_small_off_client.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/google-play-services_lib/res/drawable-mdpi/ic_plusone_small_off_client.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/google-play-services_lib/res/drawable-xhdpi/ic_plusone_small_off_client.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/google-play-services_lib/res/drawable-hdpi/ic_plusone_standard_off_client.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/google-play-services_lib/res/drawable-mdpi/ic_plusone_standard_off_client.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/google-play-services_lib/res/drawable-xhdpi/ic_plusone_standard_off_client.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/google-play-services_lib/res/drawable-hdpi/ic_plusone_tall_off_client.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/google-play-services_lib/res/drawable-mdpi/ic_plusone_tall_off_client.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/google-play-services_lib/res/drawable-xhdpi/ic_plusone_tall_off_client.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/google-play-services_lib/.classpath" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/google-play-services_lib/AndroidManifest.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/google-play-services_lib/README.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/google-play-services_lib/src/android/UnusedStub.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/google-play-services_lib/res/values/colors.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/google-play-services_lib/res/drawable/common_signin_btn_icon_dark.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/google-play-services_lib/res/drawable/common_signin_btn_icon_light.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/google-play-services_lib/res/color/common_signin_btn_text_dark.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/google-play-services_lib/res/drawable/common_signin_btn_text_dark.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/google-play-services_lib/res/color/common_signin_btn_text_light.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/google-play-services_lib/res/drawable/common_signin_btn_text_light.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/google-play-services_lib/libs/google-play-services.jar.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/google-play-services_lib/google-play-services_lib.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/google-play-services_lib/res/values/maps_attrs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/google-play-services_lib/proguard.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/google-play-services_lib/project.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/google-play-services_lib/res/values/strings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/google-play-services_lib/res/values-af/strings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/google-play-services_lib/res/values-am/strings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/google-play-services_lib/res/values-ar/strings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/google-play-services_lib/res/values-be/strings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/google-play-services_lib/res/values-bg/strings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/google-play-services_lib/res/values-ca/strings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/google-play-services_lib/res/values-cs/strings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/google-play-services_lib/res/values-da/strings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/google-play-services_lib/res/values-de/strings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/google-play-services_lib/res/values-el/strings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/google-play-services_lib/res/values-en-rGB/strings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/google-play-services_lib/res/values-es/strings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/google-play-services_lib/res/values-es-rUS/strings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/google-play-services_lib/res/values-et/strings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/google-play-services_lib/res/values-et-rEE/strings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/google-play-services_lib/res/values-fa/strings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/google-play-services_lib/res/values-fi/strings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/google-play-services_lib/res/values-fr/strings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/google-play-services_lib/res/values-hi/strings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/google-play-services_lib/res/values-hr/strings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/google-play-services_lib/res/values-hu/strings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/google-play-services_lib/res/values-in/strings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/google-play-services_lib/res/values-it/strings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/google-play-services_lib/res/values-iw/strings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/google-play-services_lib/res/values-ja/strings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/google-play-services_lib/res/values-ko/strings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/google-play-services_lib/res/values-lt/strings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/google-play-services_lib/res/values-lv/strings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/google-play-services_lib/res/values-ms/strings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/google-play-services_lib/res/values-ms-rMY/strings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/google-play-services_lib/res/values-nb/strings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/google-play-services_lib/res/values-nl/strings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/google-play-services_lib/res/values-pl/strings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/google-play-services_lib/res/values-pt/strings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/google-play-services_lib/res/values-pt-rBR/strings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/google-play-services_lib/res/values-pt-rPT/strings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/google-play-services_lib/res/values-ro/strings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/google-play-services_lib/res/values-ru/strings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/google-play-services_lib/res/values-sk/strings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/google-play-services_lib/res/values-sl/strings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/google-play-services_lib/res/values-sr/strings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/google-play-services_lib/res/values-sv/strings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/google-play-services_lib/res/values-sw/strings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/google-play-services_lib/res/values-th/strings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/google-play-services_lib/res/values-tl/strings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/google-play-services_lib/res/values-tr/strings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/google-play-services_lib/res/values-uk/strings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/google-play-services_lib/res/values-vi/strings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/google-play-services_lib/res/values-zh-rCN/strings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/google-play-services_lib/res/values-zh-rTW/strings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/google-play-services_lib/res/values-zu/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wifiLazooo/wifiLazooo.iml" afterPath="$PROJECT_DIR$/wifiLazooo/wifiLazooo.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="wifiLazooo-android.iws" />
@@ -418,7 +156,7 @@
     <file path="/fragment.java" changelist="1c4fb21d-2885-4aad-9923-48aa0358e14e" time="1379577695268" ignored="false" />
     <file path="/AndroidManifest.xml" changelist="1c4fb21d-2885-4aad-9923-48aa0358e14e" time="1379498660821" ignored="false" />
     <file path="/ExampleListActivity.java" changelist="1c4fb21d-2885-4aad-9923-48aa0358e14e" time="1379498233261" ignored="false" />
-    <file path="/Dummy.txt" changelist="1c4fb21d-2885-4aad-9923-48aa0358e14e" time="1379577808864" ignored="false" />
+    <file path="/Dummy.txt" changelist="1c4fb21d-2885-4aad-9923-48aa0358e14e" time="1379582316521" ignored="false" />
     <file path="$PROJECT_DIR$/example/src/com/lazooo/wifi_finder_service/TestReceiver.java" changelist="1c4fb21d-2885-4aad-9923-48aa0358e14e" time="1379499183217" ignored="false" />
     <file path="$PROJECT_DIR$/example/src/com/lazooo/wifi_finder_service/LazoooWifiService.java" changelist="1c4fb21d-2885-4aad-9923-48aa0358e14e" time="1379499183217" ignored="false" />
     <file path="$PROJECT_DIR$/wifi-finder-service/gen/com/lazooo/wifi_finder_service/R.java" changelist="1c4fb21d-2885-4aad-9923-48aa0358e14e" time="1379499184113" ignored="false" />
@@ -486,7 +224,7 @@
       <file leaf-file-name="Watson.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/actionbarsherlock/src/android/support/v4/app/Watson.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="42" selection-start="1330" selection-end="1330" vertical-scroll-proportion="0.5902778">
+            <state line="14" column="63" selection-start="589" selection-end="589" vertical-scroll-proportion="0.07798165">
               <folding />
             </state>
           </provider>
@@ -567,7 +305,7 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -576,28 +314,39 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wifiLazooo-android" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wifiLazooo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="recentsLimit" value="5" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="options.lastSelected" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/google-play-services_lib" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="FullScreen" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
+    <property name="FullScreen" value="false" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -638,19 +387,6 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -676,6 +412,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -811,7 +560,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -822,17 +571,17 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962137" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2497332" sideWeight="0.6703786" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32962137" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962137" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -960,6 +709,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/actionbarsherlock/src/android/support/v4/app/Watson.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/actionbarsherlock/libs/android-support-v4.jar!/android/support/v4/app/FragmentActivity.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="13" selection-start="165" selection-end="165" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/actionbarsherlock/src/android/support/v4/app/Watson.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="44" selection-start="634" selection-end="634" vertical-scroll-proportion="0.0">
           <folding />
         </state>
@@ -988,7 +751,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/actionbarsherlock/src/android/support/v4/app/Watson.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="42" selection-start="1330" selection-end="1330" vertical-scroll-proportion="0.5902778">
+        <state line="14" column="63" selection-start="589" selection-end="589" vertical-scroll-proportion="0.07798165">
           <folding />
         </state>
       </provider>
@@ -1045,7 +808,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>wifiLazooo</last-edited>
+          <last-edited>google-play-services_lib</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1069,7 +832,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>android-support-v4</last-edited>
+          <last-edited>google-play-services</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
