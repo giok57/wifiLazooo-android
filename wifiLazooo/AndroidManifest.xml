@@ -3,7 +3,6 @@
     package="com.lazooo.wifi.android.application"
     android:versionCode="3"
     android:versionName="1.2" >
-
     <uses-sdk
         android:minSdkVersion="7"
         android:targetSdkVersion="16" />
@@ -32,10 +31,12 @@
 
     <application
         android:icon="@drawable/ic_launcher"
-        android:label="@string/app_name"
-        android:theme="@style/ExampleTheme" >
+        android:label="wifiLazooo"
+        android:theme="@style/Sherlock.__Theme.DarkActionBar" >
+
+        <!--Application related manifest-->
         <activity
-            android:name="com.lazooo.wifi.android.application.Main"
+            android:name=".MainActivity"
             android:configChanges="orientation|screenSize|screenLayout"
             android:theme="@style/Theme.Sherlock.Light.DarkActionBar"
             android:uiOptions="splitActionBarWhenNarrow" >
@@ -44,21 +45,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.lazooo.wifi.android.application.PropertiesActivity" />
-        <activity android:name="com.lazooo.wifi.android.application.LeftAndRightActivity" />
-        <activity android:name="com.lazooo.wifi.android.application.AttachExample" />
-        <activity android:name="com.lazooo.wifi.android.application.anim.CustomScaleAnimation" />
-        <activity android:name="com.lazooo.wifi.android.application.anim.CustomZoomAnimation" />
-        <activity android:name="com.lazooo.wifi.android.application.anim.CustomSlideAnimation" />
-        <activity android:name="com.lazooo.wifi.android.application.SlidingTitleBar" />
-        <activity android:name="com.lazooo.wifi.android.application.SlidingContent" />
-        <activity android:name="com.lazooo.wifi.android.application.ViewPagerActivity" />
-        <activity android:name="com.lazooo.wifi.android.application.fragments.FragmentChangeActivity" />
-        <activity android:name="com.lazooo.wifi.android.application.fragments.ResponsiveUIActivity" />
-        <activity
-            android:name="com.lazooo.wifi.android.application.fragments.BirdActivity"
-            android:theme="@style/Theme.Sherlock.Light.DarkActionBar" />
-        <activity android:name="com.crittercism.NotificationActivity"/>
+        <activity android:name=".MapTest"/>
+
+        <!--Service related manifest-->
         <receiver android:name="com.lazooo.wifi.android.service.TestReceiver">
             <intent-filter>
                 <action android:name="android.net.wifi.WIFI_STATE_CHANGED"/>
@@ -68,13 +57,12 @@
         <service android:name="com.lazooo.wifi.android.service.LazoooWifiService"
                  android:exported="false"/>
 
+        <!--meta-data related manifest-->
         <uses-library android:name="com.google.android.maps"/>
         <meta-data
                 android:name="com.google.android.maps.v2.API_KEY"
                 android:value="AIzaSyCTegEmAdrPKb-ON1ss8Tfg536fOg8UMhE"/>
 
     </application>
-
-
 
 </manifest>

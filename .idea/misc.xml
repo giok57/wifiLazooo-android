@@ -47,6 +47,21 @@
     <entry_points version="2.0" />
   </component>
   <component name="IdProvider" IDEtalkID="10E55C9E63DEF8A2CF5F572B3D277479" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$USER_HOME$/ImageLoader/pom.xml" />
+      </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$USER_HOME$/ImageLoader/acceptance/pom.xml" />
+        <option value="$USER_HOME$/ImageLoader/core/pom.xml" />
+        <option value="$USER_HOME$/ImageLoader/demo/pom.xml" />
+        <option value="$USER_HOME$/ImageLoader/pom.xml" />
+      </set>
+    </option>
+  </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
       <profile-state>
@@ -94,7 +109,7 @@
     <ConfirmationsSetting value="0" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_6" assert-keyword="true" jdk-15="true" project-jdk-name="1.7" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_6" assert-keyword="true" jdk-15="true" project-jdk-name="Android 4.2.2 Platform" project-jdk-type="Android SDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
   <component name="RunManager">
