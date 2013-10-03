@@ -2,6 +2,7 @@ package com.lazooo.wifi.android.application;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentManager;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -70,6 +71,9 @@ public class SlidingMenuFragment extends Fragment implements ExpandableListView.
     @Override
     public boolean onChildClick(ExpandableListView parent, View v, int groupPosition, int childPosition, long id) {
 
+        FragmentManager fm;
+        fm = getFragmentManager();
+
         switch ((int) id) {
             case 101: //login
                 Log.d("funge", String.valueOf(id));
@@ -80,11 +84,11 @@ public class SlidingMenuFragment extends Fragment implements ExpandableListView.
             case 201: //around me
                 Log.d("funge", String.valueOf(id));
                 break;
-            case 202: //map
-                Log.d("funge", String.valueOf(id));
+            case 202: //map;
+                fm.beginTransaction().replace(R.id.fragment_container, MapFragment.getMapFragment()).commit();
                 break;
             case 203: //ricerca
-                Log.d("funge", String.valueOf(id));
+                fm.beginTransaction().replace(R.id.fragment_container, SearchFragment.getSearchFragment()).commit();
                 break;
             case 204: //le mie attività
                 Log.d("funge", String.valueOf(id));

@@ -20,7 +20,7 @@ public class MainActivity extends FragmentActivity {
 
         super.onCreate(savedBundle);
         setTitle("Gioele puzza");
-        setContentView(R.layout.test);
+        setContentView(R.layout.main_layout);
 
         setupImageLoader();
         setupSlidingMenu();

@@ -1,19 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.lazooo.wifi.android.application"
-    android:versionCode="3"
-    android:versionName="1.2" >
+          package="com.lazooo.wifi.android.application"
+          android:versionCode="3"
+          android:versionName="1.2">
+
     <uses-sdk
-        android:minSdkVersion="7"
-        android:targetSdkVersion="16" />
+            android:minSdkVersion="7"
+            android:targetSdkVersion="16"/>
 
     <!-- general permissions-->
     <uses-permission android:name="android.permission.INTERNET"/>
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
     <uses-permission android:name="android.permission.ACCESS_MOCK_LOCATION"/>
-    <uses-feature android:name="android.hardware.camera" android:required="false"/>
+
+    <uses-feature
+            android:name="android.hardware.camera"
+            android:required="false"/>
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
     <user-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
     <user-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
 
@@ -21,31 +26,33 @@
     <permission
             android:name="com.lazooo.wifi.android.application.MAPS_RECEIVE"
             android:protectionLevel="signature"/>
+
     <uses-permission android:name="com.lazooo.wifi.android.application.MAPS_RECEIVE"/>
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
     <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES"/>
+
     <uses-feature
             android:glEsVersion="0x00020000"
             android:required="true"/>
 
 
     <application
-        android:icon="@drawable/ic_launcher"
-        android:label="wifiLazooo"
-        android:theme="@style/Sherlock.__Theme.DarkActionBar" >
+            android:icon="@drawable/ic_launcher"
+            android:label="wifiLazooo"
+            android:theme="@style/Sherlock.__Theme.DarkActionBar">
 
         <!--Application related manifest-->
         <activity
-            android:name=".MainActivity"
-            android:configChanges="orientation|screenSize|screenLayout"
-            android:theme="@style/Theme.Sherlock.Light.DarkActionBar"
-            android:uiOptions="splitActionBarWhenNarrow" >
+                android:name=".MainActivity"
+                android:configChanges="orientation|screenSize|screenLayout"
+                android:theme="@style/Theme.Sherlock.Light.DarkActionBar"
+                android:uiOptions="splitActionBarWhenNarrow">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name=".MapTest"/>
+        <activity android:name=".MapFragment"/>
 
         <!--Service related manifest-->
         <receiver android:name="com.lazooo.wifi.android.service.TestReceiver">
@@ -54,8 +61,9 @@
                 <action android:name="android.net.wifi.STATE_CHANGE"/>
             </intent-filter>
         </receiver>
-        <service android:name="com.lazooo.wifi.android.service.LazoooWifiService"
-                 android:exported="false"/>
+        <service
+                android:name="com.lazooo.wifi.android.service.LazoooWifiService"
+                android:exported="false"/>
 
         <!--meta-data related manifest-->
         <uses-library android:name="com.google.android.maps"/>

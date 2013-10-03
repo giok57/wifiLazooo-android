@@ -66,15 +66,13 @@ public class SectionListAdapter extends BaseExpandableListAdapter {
     }
 
     @Override
-    public View getGroupView(int groupPosition, boolean isExpanded,
-                             View convertView, ViewGroup parent) {
+    public View getGroupView(int groupPosition, boolean isExpanded, View convertView, ViewGroup parent) {
         if (convertView == null) {
             convertView = inflater.inflate(R.layout.slidingmenu_sectionview,
                                            parent, false);
         }
 
-        TextView textView = (TextView) convertView
-                .findViewById(R.id.slidingmenu_section_title);
+        TextView textView = (TextView) convertView.findViewById(R.id.slidingmenu_section_title);
         textView.setText(((Section) getGroup(groupPosition)).getTitle());
 
         return convertView;
