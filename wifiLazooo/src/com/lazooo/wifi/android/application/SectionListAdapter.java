@@ -11,6 +11,8 @@ import android.widget.TextView;
 
 import java.util.List;
 
+//region Non toccare questo codice
+
 public class SectionListAdapter extends BaseExpandableListAdapter {
 
     private Context context;
@@ -92,21 +94,21 @@ public class SectionListAdapter extends BaseExpandableListAdapter {
         TextView textView = (TextView) convertView.findViewById(R.id.slidingmenu_sectionitem_label);
         textView.setText(oSectionItem.getTitle());
 
-        final ImageView itemIcon = (ImageView) convertView.findViewById(R.id.slidingmenu_sectionitem_icon);
-        //itemIcon.setImageDrawable(getDrawableByName(oSectionItem.getIcon(), this.context));
+        if (oSectionItem.getIcon() != null) {
+            final ImageView itemIcon = (ImageView) convertView.findViewById(R.id.slidingmenu_sectionitem_icon);
+            itemIcon.setImageDrawable(getDrawableByName(oSectionItem.getIcon(), this.context));
+        }
 
         return convertView;
     }
 
     public static Drawable getDrawableByName(String name, Context context) {
-        int drawableResource = context.getResources().getIdentifier(
-                name,
-                "drawable",
-                context.getPackageName());
+        int drawableResource = context.getResources().getIdentifier(name, "drawable", context.getPackageName());
         if (drawableResource == 0) {
-            return null;
-            //throw new RuntimeException("Can't find drawable with name: " + name);
+            throw new RuntimeException("Can't find drawable with name: " + name);
         }
         return context.getResources().getDrawable(drawableResource);
     }
 }
+
+//endregion

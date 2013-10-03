@@ -3,8 +3,9 @@ package com.lazooo.wifi.android.application;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Section {
+//region Non toccare questo codice
 
+public class Section {
 
     private String title;
     private List<SectionItem> sectionItems = new ArrayList<SectionItem>();
@@ -34,3 +35,4 @@ public class Section {
     }
 
 }
+//endregion

@@ -1,5 +1,7 @@
 package com.lazooo.wifi.android.application;
 
+//region Non toccare questo codice
+
 public class SectionItem {
 
     private long id;
@@ -36,3 +38,4 @@ public class SectionItem {
         this.id = id;
     }
 }
+//endregion

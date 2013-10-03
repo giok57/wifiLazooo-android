@@ -7,7 +7,6 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ExpandableListView;
-import com.actionbarsherlock.app.SherlockFragment;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -16,9 +15,9 @@ public class SlidingMenuFragment extends Fragment implements ExpandableListView.
 
     private ExpandableListView sectionListView;
 
+    //non modificare
     @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container,
-                             Bundle savedInstanceState) {
+    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 
         List<Section> sectionList = createMenu();
 
@@ -46,45 +45,48 @@ public class SlidingMenuFragment extends Fragment implements ExpandableListView.
         return view;
     }
 
+    //section è un contenitore di sectionItem, ed è il "capitolo".
+    //Se si vuole aggiungere un elemento seguire gli esempi sottostanti
     private List<Section> createMenu() {
         List<Section> sectionList = new ArrayList<Section>();
 
-        Section oDemoSection = new Section("Demos");
-        oDemoSection.addSectionItem(101, "List/Detail (Fragment)", "slidingmenu_friends");
-        oDemoSection.addSectionItem(102, "Airport (AsyncTask)", "slidingmenu_airport");
+        Section menuSections = new Section("General");
+        menuSections.addSectionItem(101, "Log in", null);
+        menuSections.addSectionItem(102, "Log out", null);
 
-        Section oGeneralSection = new Section("General");
-        oGeneralSection.addSectionItem(201, "Settings", "slidingmenu_settings");
-        oGeneralSection.addSectionItem(202, "Rate this app", "slidingmenu_rating");
-        oGeneralSection.addSectionItem(203, "Eula", "slidingmenu_eula");
-        oGeneralSection.addSectionItem(204, "Quit", "slidingmenu_quit");
+        Section oGeneralSection = new Section("Search");
+        oGeneralSection.addSectionItem(201, getString(R.string.aroundme), "ic_pinpoint");
+        oGeneralSection.addSectionItem(202, getString(R.string.map), "ic_map");
+        oGeneralSection.addSectionItem(203, getString(R.string.search), "ic_search");
+        oGeneralSection.addSectionItem(204, getString(R.string.myactivity), "ic_bookmark_on");
 
-        sectionList.add(oDemoSection);
+        sectionList.add(menuSections);
         sectionList.add(oGeneralSection);
         return sectionList;
     }
 
+
+    //Gestisce gli eventi dei click sui bottoni
     @Override
-    public boolean onChildClick(ExpandableListView parent, View v,
-                                int groupPosition, int childPosition, long id) {
+    public boolean onChildClick(ExpandableListView parent, View v, int groupPosition, int childPosition, long id) {
 
         switch ((int) id) {
-            case 101:
+            case 101: //login
                 Log.d("funge", String.valueOf(id));
                 break;
-            case 102:
+            case 102: //logout
                 Log.d("funge", String.valueOf(id));
                 break;
-            case 201:
+            case 201: //around me
                 Log.d("funge", String.valueOf(id));
                 break;
-            case 202:
+            case 202: //map
                 Log.d("funge", String.valueOf(id));
                 break;
-            case 203:
+            case 203: //ricerca
                 Log.d("funge", String.valueOf(id));
                 break;
-            case 204:
+            case 204: //le mie attività
                 Log.d("funge", String.valueOf(id));
                 break;
         }

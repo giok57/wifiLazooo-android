@@ -3,7 +3,7 @@
               android:layout_width="fill_parent"
               android:layout_height="wrap_content"
               android:orientation="vertical"
-              android:background="@color/purple_dark">
+              android:background="@color/menu_background">
 
     <TextView
             android:id="@+id/slidingmenu_section_title"
@@ -14,7 +14,7 @@
             android:textSize="18sp"
             android:paddingTop="7dp"
             android:paddingBottom="7dp"
-            android:background="@color/purple_dark"
+            android:background="@color/menu_background"
             android:textColor="#FFFFFF"/>
 
 </LinearLayout>

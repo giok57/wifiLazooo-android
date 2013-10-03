@@ -5,10 +5,7 @@ import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
 import android.view.KeyEvent;
 import android.view.MenuItem;
-import android.widget.GridView;
 import com.jeremyfeinstein.slidingmenu.lib.SlidingMenu;
-import com.jeremyfeinstein.slidingmenu.lib.app.SlidingActivity;
-import com.jeremyfeinstein.slidingmenu.lib.app.SlidingFragmentActivity;
 import com.nostra13.universalimageloader.cache.memory.impl.LruMemoryCache;
 import com.nostra13.universalimageloader.core.DisplayImageOptions;
 import com.nostra13.universalimageloader.core.ImageLoader;
@@ -50,6 +47,7 @@ public class MainActivity extends FragmentActivity {
         return super.onKeyDown(keyCode, event);
     }
 
+    //gestisce la scelta delle opzioni
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
@@ -61,6 +59,7 @@ public class MainActivity extends FragmentActivity {
         }
     }
 
+    //inizializza il gestore delle immagini
     private void setupImageLoader() {
 
         DisplayImageOptions displayImageOptions = new DisplayImageOptions.Builder()
@@ -79,6 +78,7 @@ public class MainActivity extends FragmentActivity {
 
     }
 
+    //inizializza il gestore del menu
     private void setupSlidingMenu() {
 
         slidingMenu = new SlidingMenu(this);
