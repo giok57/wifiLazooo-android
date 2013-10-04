@@ -3,11 +3,22 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
               android:orientation="vertical"
               android:layout_width="match_parent"
-              android:layout_height="match_parent">
+              android:layout_height="match_parent"
+        >
 
-    <TextView
-            android:text="ciao"
-            android:layout_height="match_parent"
-            android:layout_width="match_parent"/>
+    <EditText
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:hint="@string/search_hint"/>
+
+    <ListView
+            android:id="@+id/cardListView"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:divider="@null"
+            android:dividerHeight="0dp">
+    </ListView>
 
 </LinearLayout>
