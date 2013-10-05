@@ -28,24 +28,29 @@
     <option name="TOOL_WINDOW_LOG_LEVEL" value="ERROR" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c4fb21d-2885-4aad-9923-48aa0358e14e" name="Default" comment="Aggiunta navigazione a schede nel menu ricerca">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wifiLazooo/src/com/lazooo/wifi/android/application/CardListAdapter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wifiLazooo/res/drawable/bckg_card.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wifiLazooo/res/layout/list_card_item.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wifiLazooo/src/com/lazooo/wifi/android/application/MenuTest.java" afterPath="" />
+    <list default="true" id="1c4fb21d-2885-4aad-9923-48aa0358e14e" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wifiLazooo/assets/font/Roboto-Light.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wifiLazooo/src/com/lazooo/wifi/android/application/RecentSuggestionsProvider.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wifiLazooo/res/menu/options_menu.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wifiLazooo/AndroidManifest.xml" afterPath="$PROJECT_DIR$/wifiLazooo/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wifiLazooo/src/com/lazooo/wifi/android/application/CardListAdapter.java" afterPath="$PROJECT_DIR$/wifiLazooo/src/com/lazooo/wifi/android/application/CardListAdapter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wifiLazooo/src/com/lazooo/wifi/android/application/ImageAdapter.java" afterPath="$PROJECT_DIR$/wifiLazooo/src/com/lazooo/wifi/android/application/ImageAdapter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wifiLazooo/src/com/lazooo/wifi/android/application/MainActivity.java" afterPath="$PROJECT_DIR$/wifiLazooo/src/com/lazooo/wifi/android/application/MainActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wifiLazooo/src/com/lazooo/wifi/android/application/SearchFragment.java" afterPath="$PROJECT_DIR$/wifiLazooo/src/com/lazooo/wifi/android/application/SearchFragment.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/actionbarsherlock/src/com/actionbarsherlock/app/SherlockFragmentActivity.java" afterPath="$PROJECT_DIR$/actionbarsherlock/src/com/actionbarsherlock/app/SherlockFragmentActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wifiLazooo/src/com/lazooo/wifi/android/application/SlidingMenuFragment.java" afterPath="$PROJECT_DIR$/wifiLazooo/src/com/lazooo/wifi/android/application/SlidingMenuFragment.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wifiLazooo/res/values/dimens.xml" afterPath="$PROJECT_DIR$/wifiLazooo/res/values/dimens.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wifiLazooo/project.properties" afterPath="$PROJECT_DIR$/wifiLazooo/project.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wifiLazooo/res/layout/search_fragment.xml" afterPath="$PROJECT_DIR$/wifiLazooo/res/layout/search_fragment.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wifiLazooo/res/values/string.xml" afterPath="$PROJECT_DIR$/wifiLazooo/res/values/string.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wifiLazooo/wifiLazooo.iml" afterPath="$PROJECT_DIR$/wifiLazooo/wifiLazooo.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="wifiLazooo-android.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/fragment.java" changelist="1c4fb21d-2885-4aad-9923-48aa0358e14e" time="1379799993660" ignored="false" />
-    <file path="/AndroidManifest.xml" changelist="1c4fb21d-2885-4aad-9923-48aa0358e14e" time="1379799118924" ignored="false" />
+    <file path="/fragment.java" changelist="1c4fb21d-2885-4aad-9923-48aa0358e14e" time="1380975177287" ignored="false" />
+    <file path="/AndroidManifest.xml" changelist="1c4fb21d-2885-4aad-9923-48aa0358e14e" time="1380998390159" ignored="false" />
     <file path="/ExampleListActivity.java" changelist="1c4fb21d-2885-4aad-9923-48aa0358e14e" time="1379799098858" ignored="false" />
-    <file path="/Dummy.txt" changelist="1c4fb21d-2885-4aad-9923-48aa0358e14e" time="1380895398395" ignored="false" />
+    <file path="/Dummy.txt" changelist="1c4fb21d-2885-4aad-9923-48aa0358e14e" time="1380994701757" ignored="false" />
     <file path="$PROJECT_DIR$/example/src/com/lazooo/wifi_finder_service/TestReceiver.java" changelist="1c4fb21d-2885-4aad-9923-48aa0358e14e" time="1379499183217" ignored="false" />
     <file path="$PROJECT_DIR$/example/src/com/lazooo/wifi_finder_service/LazoooWifiService.java" changelist="1c4fb21d-2885-4aad-9923-48aa0358e14e" time="1379499183217" ignored="false" />
     <file path="$PROJECT_DIR$/wifi-finder-service/gen/com/lazooo/wifi_finder_service/R.java" changelist="1c4fb21d-2885-4aad-9923-48aa0358e14e" time="1379499184113" ignored="false" />
@@ -60,11 +65,11 @@
     <file path="/ImageAdapter.java" changelist="1c4fb21d-2885-4aad-9923-48aa0358e14e" time="1379797677392" ignored="false" />
     <file path="/list.xml" changelist="1c4fb21d-2885-4aad-9923-48aa0358e14e" time="1379800437101" ignored="false" />
     <file path="/ColorMenuFragment.java" changelist="1c4fb21d-2885-4aad-9923-48aa0358e14e" time="1379800540666" ignored="false" />
-    <file path="/MainActivity.java" changelist="1c4fb21d-2885-4aad-9923-48aa0358e14e" time="1380819746816" ignored="false" />
+    <file path="/MainActivity.java" changelist="1c4fb21d-2885-4aad-9923-48aa0358e14e" time="1381002419956" ignored="false" />
     <file path="/test.xml" changelist="1c4fb21d-2885-4aad-9923-48aa0358e14e" time="1380814452144" ignored="false" />
     <file path="/dimens.xml" changelist="1c4fb21d-2885-4aad-9923-48aa0358e14e" time="1379844511487" ignored="false" />
     <file path="/slidingmenu.xml" changelist="1c4fb21d-2885-4aad-9923-48aa0358e14e" time="1379845576360" ignored="false" />
-    <file path="/SlidingMenuFragment.java" changelist="1c4fb21d-2885-4aad-9923-48aa0358e14e" time="1380831539608" ignored="false" />
+    <file path="/SlidingMenuFragment.java" changelist="1c4fb21d-2885-4aad-9923-48aa0358e14e" time="1380908065344" ignored="false" />
     <file path="/slidingmenu_fragment.xml" changelist="1c4fb21d-2885-4aad-9923-48aa0358e14e" time="1380552136275" ignored="false" />
     <file path="/SectionListAdapter.java" changelist="1c4fb21d-2885-4aad-9923-48aa0358e14e" time="1380811942359" ignored="false" />
     <file path="$APPLICATION_HOME_DIR$/plugins/android/lib/android.jar!/org/jetbrains/android/android.xsd" changelist="1c4fb21d-2885-4aad-9923-48aa0358e14e" time="1380731222949" ignored="false" />
@@ -73,13 +78,19 @@
     <file path="/SectionItem.java" changelist="1c4fb21d-2885-4aad-9923-48aa0358e14e" time="1380808998523" ignored="false" />
     <file path="/slidingmenu_sectionitem.xml" changelist="1c4fb21d-2885-4aad-9923-48aa0358e14e" time="1380813098911" ignored="false" />
     <file path="/README" changelist="1c4fb21d-2885-4aad-9923-48aa0358e14e" time="1380813622057" ignored="false" />
-    <file path="/SearchFragment.java" changelist="1c4fb21d-2885-4aad-9923-48aa0358e14e" time="1380894731653" ignored="false" />
-    <file path="/search_fragment.xml" changelist="1c4fb21d-2885-4aad-9923-48aa0358e14e" time="1380893322544" ignored="false" />
+    <file path="/SearchFragment.java" changelist="1c4fb21d-2885-4aad-9923-48aa0358e14e" time="1380918450669" ignored="false" />
+    <file path="/search_fragment.xml" changelist="1c4fb21d-2885-4aad-9923-48aa0358e14e" time="1380919592610" ignored="false" />
     <file path="/main_layout.xml" changelist="1c4fb21d-2885-4aad-9923-48aa0358e14e" time="1380826664241" ignored="false" />
     <file path="/Test.java" changelist="1c4fb21d-2885-4aad-9923-48aa0358e14e" time="1380818889203" ignored="false" />
     <file path="/MapFragment.java" changelist="1c4fb21d-2885-4aad-9923-48aa0358e14e" time="1380831816959" ignored="false" />
-    <file path="/CardListAdapter.java" changelist="1c4fb21d-2885-4aad-9923-48aa0358e14e" time="1380893601816" ignored="false" />
+    <file path="/CardListAdapter.java" changelist="1c4fb21d-2885-4aad-9923-48aa0358e14e" time="1381002591784" ignored="false" />
     <file path="/list_card_item.xml" changelist="1c4fb21d-2885-4aad-9923-48aa0358e14e" time="1380894338562" ignored="false" />
+    <file path="/FontsOverride.java" changelist="1c4fb21d-2885-4aad-9923-48aa0358e14e" time="1380916880379" ignored="false" />
+    <file path="/options_menu.xml" changelist="1c4fb21d-2885-4aad-9923-48aa0358e14e" time="1381001596224" ignored="false" />
+    <file path="/SearchRecentSuggestionsProvider.java" changelist="1c4fb21d-2885-4aad-9923-48aa0358e14e" time="1380974821979" ignored="false" />
+    <file path="/SuggestionSimpleCursorAdapter.java" changelist="1c4fb21d-2885-4aad-9923-48aa0358e14e" time="1380975534435" ignored="false" />
+    <file path="/abs__search_dropdown_dark.xml" changelist="1c4fb21d-2885-4aad-9923-48aa0358e14e" time="1380998016012" ignored="false" />
+    <file path="/AroundMeActionProvider.java" changelist="1c4fb21d-2885-4aad-9923-48aa0358e14e" time="1381001698589" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,8 +105,6 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
-    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -132,6 +141,8 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -141,34 +152,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="MainActivity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wifiLazooo/src/com/lazooo/wifi/android/application/MainActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="71" column="141" selection-start="2495" selection-end="2495" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="search_fragment.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wifiLazooo/res/layout/search_fragment.xml">
           <provider editor-type-id="android-designer">
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="48" selection-start="332" selection-end="332" vertical-scroll-proportion="-5.4">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bckg_card.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wifiLazooo/res/drawable/bckg_card.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="13" selection-start="793" selection-end="793" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="list_card_item.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wifiLazooo/res/layout/list_card_item.xml">
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="51" selection-start="581" selection-end="581" vertical-scroll-proportion="0.0">
+            <state line="7" column="0" selection-start="302" selection-end="302" vertical-scroll-proportion="-4.2">
               <folding />
             </state>
           </provider>
@@ -177,25 +178,63 @@
       <file leaf-file-name="CardListAdapter.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wifiLazooo/src/com/lazooo/wifi/android/application/CardListAdapter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="12" selection-start="1339" selection-end="1339" vertical-scroll-proportion="0.332696">
+            <state line="65" column="37" selection-start="2493" selection-end="2496" vertical-scroll-proportion="0.63114756">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wifiLazooo/src/com/lazooo/wifi/android/application/MainActivity.java">
+      <file leaf-file-name="SherlockFragmentActivity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/actionbarsherlock/src/com/actionbarsherlock/app/SherlockFragmentActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="97" column="1" selection-start="3232" selection-end="3232" vertical-scroll-proportion="0.0">
+            <state line="163" column="0" selection-start="5300" selection-end="5300" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="string.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wifiLazooo/res/values/string.xml">
+      <file leaf-file-name="Watson.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/actionbarsherlock/src/android/support/v4/app/Watson.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="40" selection-start="350" selection-end="350" vertical-scroll-proportion="0.0">
+            <state line="43" column="0" selection-start="1824" selection-end="1824" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wifiLazooo/AndroidManifest.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="47" column="76" selection-start="2002" selection-end="2002" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SlidingMenuFragment.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wifiLazooo/src/com/lazooo/wifi/android/application/SlidingMenuFragment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="90" column="115" selection-start="3405" selection-end="3521" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SuggestionSimpleCursorAdapter.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wifiLazooo/gen/com/lazooo/wifi/android/application/SuggestionSimpleCursorAdapter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="42" selection-start="152" selection-end="152" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="options_menu.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wifiLazooo/res/menu/options_menu.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="43" selection-start="501" selection-end="501" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -207,34 +246,7 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SearchFragment.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wifiLazooo/src/com/lazooo/wifi/android/application/SearchFragment.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="38" selection-start="1211" selection-end="1211" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="color.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wifiLazooo/res/values/color.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="attrs.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wifiLazooo/res/values/attrs.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
               <folding />
             </state>
           </provider>
@@ -266,22 +278,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/wifiLazooo/src/com/lazooo/wifi/android/application/MainActivity.java" />
-        <option value="$PROJECT_DIR$/wifiLazooo/res/layout/main_layout.xml" />
-        <option value="$PROJECT_DIR$/wifiLazooo/res/layout/map_test.xml" />
-        <option value="$PROJECT_DIR$/wifiLazooo/src/com/lazooo/wifi/android/application/SlidingMenuFragment.java" />
-        <option value="$PROJECT_DIR$/wifiLazooo/src/com/lazooo/wifi/android/application/MapFragment.java" />
-        <option value="$PROJECT_DIR$/wifiLazooo/res/values/string.xml" />
-        <option value="$PROJECT_DIR$/wifiLazooo/res/drawable/card.xml" />
-        <option value="$PROJECT_DIR$/wifiLazooo/src/com/lazooo/wifi/android/application/CustomCardAdapter.java" />
-        <option value="$PROJECT_DIR$/wifiLazooo/res/layout/card_larger.xml" />
-        <option value="$PROJECT_DIR$/wifiLazooo/res/values/styles.xml" />
-        <option value="$PROJECT_DIR$/wifiLazooo/res/values/dimens.xml" />
-        <option value="$PROJECT_DIR$/wifiLazooo/res/drawable/bckg_card.xml" />
-        <option value="$PROJECT_DIR$/wifiLazooo/res/layout/list_card_item.xml" />
-        <option value="$PROJECT_DIR$/wifiLazooo/src/com/lazooo/wifi/android/application/CardListAdapter.java" />
+        <option value="$PROJECT_DIR$/wifiLazooo/src/com/lazooo/wifi/android/application/ExpandableArrayAdapter.java" />
         <option value="$PROJECT_DIR$/wifiLazooo/src/com/lazooo/wifi/android/application/SearchFragment.java" />
+        <option value="$PROJECT_DIR$/wifiLazooo/res/layout/search_menu.xml" />
+        <option value="$PROJECT_DIR$/wifiLazooo/src/com/lazooo/wifi/android/application/SearchRecentSuggestionsProvider.java" />
+        <option value="$PROJECT_DIR$/wifiLazooo/src/com/lazooo/wifi/android/application/RecentSuggestionsProvider.java" />
+        <option value="$PROJECT_DIR$/wifiLazooo/gen/com/lazooo/wifi/android/application/SuggestionsDatabase.java" />
+        <option value="$PROJECT_DIR$/actionbarsherlock/res/values-v14/abs__themes.xml" />
+        <option value="$PROJECT_DIR$/actionbarsherlock/res/drawable/abs__search_dropdown_dark.xml" />
+        <option value="$PROJECT_DIR$/wifiLazooo/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/actionbarsherlock/src/com/actionbarsherlock/app/SherlockFragmentActivity.java" />
+        <option value="$PROJECT_DIR$/wifiLazooo/gen/com/lazooo/wifi/android/application/SuggestionSimpleCursorAdapter.java" />
+        <option value="$PROJECT_DIR$/wifiLazooo/src/com/lazooo/wifi/android/application/AroundMeActionProvider.java" />
+        <option value="$PROJECT_DIR$/wifiLazooo/res/menu/options_menu.xml" />
+        <option value="$PROJECT_DIR$/wifiLazooo/src/com/lazooo/wifi/android/application/MainActivity.java" />
         <option value="$PROJECT_DIR$/wifiLazooo/res/layout/search_fragment.xml" />
+        <option value="$PROJECT_DIR$/wifiLazooo/src/com/lazooo/wifi/android/application/CardListAdapter.java" />
       </list>
     </option>
   </component>
@@ -424,6 +436,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="menu" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wifiLazooo-android" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wifiLazooo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="layout" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -442,15 +472,34 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wifiLazooo-android" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wifiLazooo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="font" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="project.structure.last.edited" value="Modules" />
     <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="OverrideImplement.combined" value="true" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="recentsLimit" value="5" />
@@ -463,11 +512,11 @@
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="MemberChooser.showClasses" value="true" />
     <property name="FullScreen" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="PublishConfig">
     <servers>
@@ -493,9 +542,15 @@
     </servers>
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.lazooo.wifi.android.application" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.lazooo" />
       <recent name="com.jeremyfeinstein.slidingmenu.example" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/wifiLazooo/assets" />
     </key>
   </component>
   <component name="RunManager" selected="Android Application.wifiLazooo">
@@ -531,6 +586,19 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -557,19 +625,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -730,7 +785,11 @@
       <created>1380831978207</created>
       <updated>1380831978207</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Aggiunta navigazione a schede nel menu ricerca">
+      <created>1380895447591</created>
+      <updated>1380895447591</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -770,22 +829,22 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32870865" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3343983" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3340448" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33226836" sideWeight="0.71003306" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.71003306" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32870865" sideWeight="0.6328556" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.74641675" sideWeight="0.66560173" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32563257" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1890849" sideWeight="0.70117396" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29882604" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296582" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296582" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33883387" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33831376" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -861,67 +920,75 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/wifiLazooo/src/com/lazooo/wifi/android/application/MapFragment.java">
+    <entry file="file://$PROJECT_DIR$/actionbarsherlock/res/values/abs__attrs.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="19" selection-start="2088" selection-end="2088" vertical-scroll-proportion="0.0">
+        <state line="107" column="20" selection-start="5306" selection-end="5306" vertical-scroll-proportion="0.32171157">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wifiLazooo/src/com/lazooo/wifi/android/application/SlidingMenuFragment.java">
+    <entry file="file://$PROJECT_DIR$/actionbarsherlock/res/drawable/abs__search_dropdown_light.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="85" column="19" selection-start="3207" selection-end="3207" vertical-scroll-proportion="1.590106">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/android sdk/platforms/android-17/android.jar!/android/view/MenuInflater.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="16" selection-start="268" selection-end="268" vertical-scroll-proportion="0.19017433">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wifiLazooo/gen/com/lazooo/wifi/android/application/SuggestionsDatabase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="13" selection-start="283" selection-end="283" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/actionbarsherlock/src/com/actionbarsherlock/internal/ActionBarSherlockNative.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="63" column="0" selection-start="1997" selection-end="1997" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/actionbarsherlock/src/com/actionbarsherlock/ActionBarSherlock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="559" column="0" selection-start="20696" selection-end="20696" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/actionbarsherlock/src/com/actionbarsherlock/app/SherlockFragmentActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="163" column="0" selection-start="5300" selection-end="5300" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/actionbarsherlock/src/android/support/v4/app/Watson.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="0" selection-start="1824" selection-end="1824" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wifiLazooo/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="76" selection-start="2002" selection-end="2002" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wifiLazooo/gen/com/lazooo/wifi/android/application/SuggestionSimpleCursorAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="42" selection-start="152" selection-end="152" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="e#1907#1916#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wifiLazooo/src/com/lazooo/wifi/android/application/SectionListAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="67" selection-start="1836" selection-end="1836" vertical-scroll-proportion="-0.051107325">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wifiLazooo/res/layout/main_layout.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="14" selection-start="275" selection-end="275" vertical-scroll-proportion="0.13345195">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wifiLazooo/res/layout/map_fragment.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="15" selection-start="491" selection-end="491" vertical-scroll-proportion="0.3469751">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wifiLazooo/res/values/dimens.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="192" selection-end="192" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wifiLazooo/res/values/color.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wifiLazooo/res/values/attrs.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
         </state>
       </provider>
     </entry>
@@ -935,41 +1002,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wifiLazooo/res/values/string.xml">
+    <entry file="file://$PROJECT_DIR$/wifiLazooo/res/menu/options_menu.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="40" selection-start="350" selection-end="350" vertical-scroll-proportion="0.0">
+        <state line="12" column="43" selection-start="501" selection-end="501" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wifiLazooo/src/com/lazooo/wifi/android/application/SlidingMenuFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="90" column="115" selection-start="3405" selection-end="3521" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wifiLazooo/src/com/lazooo/wifi/android/application/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="97" column="1" selection-start="3232" selection-end="3232" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wifiLazooo/src/com/lazooo/wifi/android/application/SearchFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="38" selection-start="1211" selection-end="1211" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wifiLazooo/res/layout/list_card_item.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="51" selection-start="581" selection-end="581" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wifiLazooo/res/drawable/bckg_card.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="13" selection-start="793" selection-end="793" vertical-scroll-proportion="0.0">
-          <folding />
+        <state line="71" column="141" selection-start="2495" selection-end="2495" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -978,14 +1030,14 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="48" selection-start="332" selection-end="332" vertical-scroll-proportion="-5.4">
+        <state line="7" column="0" selection-start="302" selection-end="302" vertical-scroll-proportion="-4.2">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wifiLazooo/src/com/lazooo/wifi/android/application/CardListAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="12" selection-start="1339" selection-end="1339" vertical-scroll-proportion="0.332696">
+        <state line="65" column="37" selection-start="2493" selection-end="2496" vertical-scroll-proportion="0.63114756">
           <folding />
         </state>
       </provider>
@@ -1007,7 +1059,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>Android</last-edited>
+          <last-edited>Android (actionbarsherlock)|Android</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1047,7 +1099,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>

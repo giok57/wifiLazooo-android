@@ -39,14 +39,13 @@
     <application
             android:icon="@drawable/ic_launcher"
             android:label="wifiLazooo"
-            android:theme="@style/Sherlock.__Theme.DarkActionBar">
+            android:theme="@android:style/Theme.Holo.Light.DarkActionBar">
 
         <!--Application related manifest-->
         <activity
                 android:name=".MainActivity"
                 android:configChanges="orientation|screenSize|screenLayout"
-                android:theme="@style/Theme.Sherlock.Light.DarkActionBar"
-                android:uiOptions="splitActionBarWhenNarrow">
+                android:theme="@android:style/Theme.Holo.Light.DarkActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.LAUNCHER"/>

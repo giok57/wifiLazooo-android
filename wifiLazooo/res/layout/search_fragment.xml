@@ -4,7 +4,31 @@
               android:orientation="vertical"
               android:layout_width="match_parent"
               android:layout_height="match_parent"
-        >
+              android:scrollbars="vertical">
+
+    <ListView
+            android:id="@+id/city_results"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:divider="@null"
+            android:dividerHeight="0dp">
+    </ListView>
+
+    <ListView
+            android:id="@+id/poi_results"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:divider="@null"
+            android:dividerHeight="0dp">
+    </ListView>
+
+    <ListView
+            android:id="@+id/ssid_results"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:divider="@null"
+            android:dividerHeight="0dp">
+    </ListView>
 
     <EditText
             android:layout_height="wrap_content"
@@ -12,13 +36,5 @@
             android:paddingLeft="15dp"
             android:paddingRight="15dp"
             android:hint="@string/search_hint"/>
-
-    <ListView
-            android:id="@+id/cardListView"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            android:divider="@null"
-            android:dividerHeight="0dp">
-    </ListView>
 
 </LinearLayout>

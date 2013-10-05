@@ -1,22 +1,17 @@
 package com.lazooo.wifi.android.application;
 
 import android.content.Context;
-import android.graphics.Bitmap;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.AbsListView;
 import android.widget.BaseAdapter;
-import android.widget.GridView;
 import android.widget.ImageView;
-import com.nostra13.universalimageloader.cache.memory.impl.LruMemoryCache;
 import com.nostra13.universalimageloader.core.ImageLoader;
-import com.nostra13.universalimageloader.core.ImageLoaderConfiguration;
 
-public class ImageAdapter extends BaseAdapter{
+public class ImageAdapter extends BaseAdapter {
 
     private Context context;
 
-    ImageAdapter (Context context) {
+    ImageAdapter(Context context) {
         this.context = context;
     }
 
@@ -32,7 +27,7 @@ public class ImageAdapter extends BaseAdapter{
         return 0;
     }
 
-    public View getView(int position, View convertView, ViewGroup parent){
+    public View getView(int position, View convertView, ViewGroup parent) {
         ImageView imageView;
         if (convertView == null) {
             imageView = new ImageView(context);
@@ -42,7 +37,7 @@ public class ImageAdapter extends BaseAdapter{
             imageView = (ImageView) convertView;
         }
 
-        ImageLoader.getInstance().displayImage(mThumbIds[position],imageView);
+        ImageLoader.getInstance().displayImage(mThumbIds[position], imageView);
         return imageView;
     }
 

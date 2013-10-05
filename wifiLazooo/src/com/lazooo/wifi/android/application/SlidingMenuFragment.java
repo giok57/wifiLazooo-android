@@ -95,6 +95,8 @@ public class SlidingMenuFragment extends Fragment implements ExpandableListView.
                 break;
         }
 
+        ((MainActivity) getActivity()).onBackPressed();
+
         return false;
     }
 }

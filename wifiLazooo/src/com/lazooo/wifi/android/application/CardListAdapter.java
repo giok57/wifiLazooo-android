@@ -5,6 +5,8 @@ import android.graphics.Typeface;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.animation.Animation;
+import android.view.animation.TranslateAnimation;
 import android.widget.ArrayAdapter;
 import android.widget.TextView;
 
@@ -19,17 +21,20 @@ public class CardListAdapter extends ArrayAdapter<String> {
     private static Hashtable fontCache = new Hashtable();
     private LayoutInflater inflater;
 
+    private int mLastPosition = -1;
+
     public class CustomListItem {
         TextView descText;
     }
 
     public CardListAdapter(Context context, int resource, ArrayList<String> commandsList) {
-// TODO Auto-generated constructor stub
+        // TODO Auto-generated constructor stub
         super(context, R.layout.list_card_item, commandsList);
         this.context = context;
+
         values = new ArrayList<String>();
         values.addAll(commandsList);
-        //typeface = getTypeface(this.context, "fonts/Roboto-Light.ttf");
+        typeface = getTypeface(this.context, "font/Roboto-Light.ttf");
         inflater = LayoutInflater.from(this.context);
     }
 
@@ -55,7 +60,14 @@ public class CardListAdapter extends ArrayAdapter<String> {
             myListItem = (CustomListItem) convertView.getTag();
         }
         myListItem.descText.setText(myText);
-        //myListItem.descText.setTextSize(14);
+        TranslateAnimation animation = null;
+        if (position > mLastPosition) {
+            animation = new TranslateAnimation(Animation.RELATIVE_TO_SELF, 0.0f, Animation.RELATIVE_TO_SELF, 0.0f, Animation.RELATIVE_TO_SELF, 1.0f, Animation.RELATIVE_TO_SELF, 0.0f);
+            animation.setDuration(600);
+            convertView.startAnimation(animation);
+            mLastPosition = position;
+        }
+
         return convertView;
     }
 
