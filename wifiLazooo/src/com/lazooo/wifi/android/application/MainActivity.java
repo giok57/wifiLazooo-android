@@ -29,15 +29,49 @@ public class MainActivity extends FragmentActivity implements SearchView.OnSugge
         super.onCreate(savedBundle);
         setTitle("Gioele puzza");
         setContentView(R.layout.main_layout);
-
         //setupImageLoader();
         setupSlidingMenu();
-
-
         database = new SuggestionsDatabase(this);
 
     }
 
+    //inizializza il gestore delle immagini
+    private void setupImageLoader() {
+
+        DisplayImageOptions displayImageOptions = new DisplayImageOptions.Builder()
+                .cacheInMemory(true)
+                .cacheOnDisc(true).build();
+
+        ImageLoaderConfiguration config = new ImageLoaderConfiguration.Builder(getApplicationContext())
+                .memoryCacheExtraOptions(480, 800)
+                .discCacheExtraOptions(480, 800, Bitmap.CompressFormat.JPEG, 75, null)
+                .memoryCache(new LruMemoryCache(2 * 1024 * 1024))
+                .discCacheFileCount(100)
+                .defaultDisplayImageOptions(displayImageOptions)
+                .build();
+
+        ImageLoader.getInstance().init(config);
+
+    }
+
+    //inizializza il gestore del menu
+    private void setupSlidingMenu() {
+
+        slidingMenu = new SlidingMenu(this);
+        slidingMenu.setMode(SlidingMenu.LEFT);
+        slidingMenu.setTouchModeAbove(SlidingMenu.TOUCHMODE_FULLSCREEN);
+        slidingMenu.setShadowWidthRes(R.dimen.slidingmenu_shadow_width);
+        slidingMenu.setShadowWidth(R.drawable.slidingmenu_shadow);
+        slidingMenu.setBehindOffsetRes(R.dimen.slidingmenu_offset);
+        slidingMenu.setFadeDegree(0.35f);
+        slidingMenu.attachToActivity(this, SlidingMenu.SLIDING_CONTENT);
+        slidingMenu.setMenu(R.layout.slidingmenu);
+
+        getActionBar().setDisplayHomeAsUpEnabled(true);
+
+    }
+
+    //region Gestione degli eventi della barra
     //definisce il comportamento che si ha quando viene spinto il tasto indietro
     @Override
     public void onBackPressed() {
@@ -85,43 +119,9 @@ public class MainActivity extends FragmentActivity implements SearchView.OnSugge
         searchView.setOnSuggestionListener(this);
         return true;
     }
+    //endregion
 
-    //inizializza il gestore delle immagini
-    private void setupImageLoader() {
-
-        DisplayImageOptions displayImageOptions = new DisplayImageOptions.Builder()
-                .cacheInMemory(true)
-                .cacheOnDisc(true).build();
-
-        ImageLoaderConfiguration config = new ImageLoaderConfiguration.Builder(getApplicationContext())
-                .memoryCacheExtraOptions(480, 800)
-                .discCacheExtraOptions(480, 800, Bitmap.CompressFormat.JPEG, 75, null)
-                .memoryCache(new LruMemoryCache(2 * 1024 * 1024))
-                .discCacheFileCount(100)
-                .defaultDisplayImageOptions(displayImageOptions)
-                .build();
-
-        ImageLoader.getInstance().init(config);
-
-    }
-
-    //inizializza il gestore del menu
-    private void setupSlidingMenu() {
-
-        slidingMenu = new SlidingMenu(this);
-        slidingMenu.setMode(SlidingMenu.LEFT);
-        slidingMenu.setTouchModeAbove(SlidingMenu.TOUCHMODE_FULLSCREEN);
-        slidingMenu.setShadowWidthRes(R.dimen.slidingmenu_shadow_width);
-        slidingMenu.setShadowWidth(R.drawable.slidingmenu_shadow);
-        slidingMenu.setBehindOffsetRes(R.dimen.slidingmenu_offset);
-        slidingMenu.setFadeDegree(0.35f);
-        slidingMenu.attachToActivity(this, SlidingMenu.SLIDING_CONTENT);
-        slidingMenu.setMenu(R.layout.slidingmenu);
-
-        getActionBar().setDisplayHomeAsUpEnabled(true);
-
-    }
-
+    //region Gestione della cronologia
     @Override
     public boolean onSuggestionSelect(int position) {
 
@@ -160,5 +160,6 @@ public class MainActivity extends FragmentActivity implements SearchView.OnSugge
             return false;
         }
     }
+    //endregion
 
 }
