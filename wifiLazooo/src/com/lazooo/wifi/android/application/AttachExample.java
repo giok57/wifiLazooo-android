@@ -3,7 +3,6 @@ package com.lazooo.wifi.android.application;
 import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
 
-import com.jeremyfeinstein.slidingmenu.example.R;
 import com.jeremyfeinstein.slidingmenu.lib.SlidingMenu;
 
 public class AttachExample extends FragmentActivity {

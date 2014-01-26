@@ -11,8 +11,8 @@ import android.widget.AdapterView.OnItemClickListener;
 import android.widget.BaseAdapter;
 import android.widget.GridView;
 import android.widget.ImageView;
+import com.lazooo.wifi.android.application.R;
 
-import com.jeremyfeinstein.slidingmenu.example.R;
 
 public class BirdGridFragment extends Fragment {
 

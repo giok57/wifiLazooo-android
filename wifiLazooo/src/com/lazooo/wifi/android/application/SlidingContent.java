@@ -1,7 +1,6 @@
 package com.lazooo.wifi.android.application;
 
 import android.os.Bundle;
-import com.jeremyfeinstein.slidingmenu.example.R;
 
 
 public class SlidingContent extends BaseActivity {

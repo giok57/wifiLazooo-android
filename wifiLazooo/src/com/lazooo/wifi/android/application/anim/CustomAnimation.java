@@ -3,7 +3,7 @@ package com.lazooo.wifi.android.application.anim;
 import android.os.Bundle;
 
 import com.lazooo.wifi.android.application.BaseActivity;
-import com.jeremyfeinstein.slidingmenu.example.R;
+import com.lazooo.wifi.android.application.R;
 import com.lazooo.wifi.android.application.SampleListFragment;
 import com.jeremyfeinstein.slidingmenu.lib.SlidingMenu;
 import com.jeremyfeinstein.slidingmenu.lib.SlidingMenu.CanvasTransformer;

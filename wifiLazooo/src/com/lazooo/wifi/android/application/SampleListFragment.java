@@ -9,7 +9,6 @@ import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
-import com.jeremyfeinstein.slidingmenu.example.R;
 
 public class SampleListFragment extends ListFragment {
 

@@ -2,7 +2,6 @@ package com.lazooo.wifi.android.application;
 
 import android.os.Bundle;
 import android.support.v4.view.ViewPager;
-import com.jeremyfeinstein.slidingmenu.example.R;
 
 
 public class SlidingTitleBar extends BaseActivity {

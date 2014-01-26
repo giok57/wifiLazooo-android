@@ -15,7 +15,7 @@ import android.widget.ImageView.ScaleType;
 
 import com.actionbarsherlock.app.SherlockActivity;
 import com.actionbarsherlock.view.MenuItem;
-import com.jeremyfeinstein.slidingmenu.example.R;
+import com.lazooo.wifi.android.application.R;
 
 public class BirdActivity extends SherlockActivity {
 

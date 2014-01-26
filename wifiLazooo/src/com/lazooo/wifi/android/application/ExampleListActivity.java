@@ -5,7 +5,9 @@ package com.lazooo.wifi.android.application;
 import java.net.URLEncoder;
 
 import android.app.AlertDialog;
+import android.content.Context;
 import android.content.Intent;
+import android.content.ServiceConnection;
 import android.net.Uri;
 import android.os.Bundle;
 import android.preference.Preference;
@@ -16,21 +18,32 @@ import android.widget.Toast;
 import com.actionbarsherlock.app.SherlockPreferenceActivity;
 import com.actionbarsherlock.view.Menu;
 import com.actionbarsherlock.view.MenuItem;
-import com.jeremyfeinstein.slidingmenu.example.R;
 import com.lazooo.wifi.android.application.anim.CustomScaleAnimation;
 import com.lazooo.wifi.android.application.anim.CustomSlideAnimation;
 import com.lazooo.wifi.android.application.anim.CustomZoomAnimation;
 import com.lazooo.wifi.android.application.fragments.FragmentChangeActivity;
 import com.lazooo.wifi.android.application.fragments.ResponsiveUIActivity;
+import com.lazooo.wifi.android.application.util.LzoConfigurator;
 
 public class ExampleListActivity extends SherlockPreferenceActivity {
+
+    private Context appContext;
+    private ServiceConnection serviceConnection;
 
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setTitle(R.string.app_name);
-		
+		setTitle("wifiLazooo");
+        appContext = this;
+
+        //Intent serv = new Intent(this, LazoooWifiService.class);
+        //startService(serv);
+
+
+        LzoConfigurator.configureImageLoader(this);
 //		Crittercism.init(getApplicationContext(), "508ab27601ed857a20000003");
+
+        Toast.makeText(this, String.valueOf(getSharedPreferences("lazoooOnlyScanned", MODE_WORLD_READABLE).getInt("scans",-1)), Toast.LENGTH_SHORT).show();
 		Intent intent = new Intent(this, FragmentChangeActivity.class);
 		startActivity(intent);
 		finish();
@@ -107,5 +120,4 @@ public class ExampleListActivity extends SherlockPreferenceActivity {
 		getSupportMenuInflater().inflate(R.menu.example_list, menu);
 		return true;
 	}
-	
 }

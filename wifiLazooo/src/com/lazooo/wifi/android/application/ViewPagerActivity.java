@@ -9,8 +9,7 @@ import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.support.v4.view.ViewPager.OnPageChangeListener;
 
-import com.jeremyfeinstein.slidingmenu.example.R;
-import com.lazooo.wifi.android.application.fragments.ColorFragment;
+import com.lazooo.wifi.android.application.fragments.LazoooNearWifiFragment;
 import com.jeremyfeinstein.slidingmenu.lib.SlidingMenu;
 
 public class ViewPagerActivity extends BaseActivity {
@@ -69,7 +68,7 @@ public class ViewPagerActivity extends BaseActivity {
 			super(fm);
 			mFragments = new ArrayList<Fragment>();
 			for (int color : COLORS)
-				mFragments.add(new ColorFragment(color));
+				mFragments.add(new LazoooNearWifiFragment(color));
 		}
 
 		@Override

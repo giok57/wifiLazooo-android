@@ -3,8 +3,8 @@ package com.lazooo.wifi.android.application.anim;
 import android.graphics.Canvas;
 import android.view.animation.Interpolator;
 
-import com.jeremyfeinstein.slidingmenu.example.R;
 import com.jeremyfeinstein.slidingmenu.lib.SlidingMenu.CanvasTransformer;
+import com.lazooo.wifi.android.application.R;
 
 public class CustomSlideAnimation extends CustomAnimation {
 	

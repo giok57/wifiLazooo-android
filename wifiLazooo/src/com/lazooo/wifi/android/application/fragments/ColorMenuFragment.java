@@ -8,20 +8,25 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
+import com.lazooo.wifi.android.application.R;
 
-import com.jeremyfeinstein.slidingmenu.example.R;
 
 public class ColorMenuFragment extends ListFragment {
 
+    LazoooMapFragment mapFragment;
+
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-		return inflater.inflate(R.layout.list, null);
+
+        return inflater.inflate(R.layout.list, null);
 	}
 
 	@Override
 	public void onActivityCreated(Bundle savedInstanceState) {
 		super.onActivityCreated(savedInstanceState);
-		String[] colors = getResources().getStringArray(R.array.color_names);
+        mapFragment = new LazoooMapFragment();
+
+        String[] colors = getResources().getStringArray(R.array.color_names);
 		ArrayAdapter<String> colorAdapter = new ArrayAdapter<String>(getActivity(), 
 				android.R.layout.simple_list_item_1, android.R.id.text1, colors);
 		setListAdapter(colorAdapter);
@@ -32,19 +37,19 @@ public class ColorMenuFragment extends ListFragment {
 		Fragment newContent = null;
 		switch (position) {
 		case 0:
-			newContent = new ColorFragment(R.color.red);
+			newContent = new LazoooNearWifiFragment(R.color.red);
 			break;
 		case 1:
-			newContent = new ColorFragment(R.color.green);
-			break;
+            newContent = mapFragment;
+            break;
 		case 2:
-			newContent = new ColorFragment(R.color.blue);
+			newContent = new LazoooNearWifiFragment(R.color.blue);
 			break;
 		case 3:
-			newContent = new ColorFragment(android.R.color.white);
+			newContent = new LazoooNearWifiFragment(android.R.color.white);
 			break;
 		case 4:
-			newContent = new ColorFragment(android.R.color.black);
+			newContent = new LazoooNearWifiFragment(android.R.color.black);
 			break;
 		}
 		if (newContent != null)

@@ -8,9 +8,9 @@ import android.support.v4.app.Fragment;
 import android.view.View;
 
 import com.actionbarsherlock.view.MenuItem;
-import com.jeremyfeinstein.slidingmenu.example.R;
 import com.jeremyfeinstein.slidingmenu.lib.SlidingMenu;
 import com.jeremyfeinstein.slidingmenu.lib.app.SlidingFragmentActivity;
+import com.lazooo.wifi.android.application.R;
 
 /**
  * This activity is an example of a responsive Android UI.

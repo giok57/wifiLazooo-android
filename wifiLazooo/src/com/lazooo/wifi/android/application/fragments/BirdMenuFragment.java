@@ -8,8 +8,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
+import com.lazooo.wifi.android.application.R;
 
-import com.jeremyfeinstein.slidingmenu.example.R;
 
 public class BirdMenuFragment extends ListFragment {
 	
