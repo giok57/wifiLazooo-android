@@ -26,9 +26,9 @@ package com.lazooo.wifi.android.service;
  */
 
 import android.net.http.AndroidHttpClient;
+import android.net.wifi.ScanResult;
 import android.os.AsyncTask;
 import com.lazooo.wifi.android.application.util.Log;
-import com.lazooo.wifi.android.application.util.Toast;
 import org.apache.commons.io.IOUtils;
 import org.apache.http.HttpEntity;
 import org.apache.http.HttpResponse;
@@ -41,8 +41,13 @@ import org.apache.http.params.CoreProtocolPNames;
 import org.apache.http.params.HttpConnectionParams;
 import org.apache.http.params.HttpParams;
 
+import javax.net.ssl.*;
 import java.io.*;
 import java.net.*;
+import java.security.KeyManagementException;
+import java.security.NoSuchAlgorithmException;
+import java.security.cert.X509Certificate;
+import java.util.*;
 
 /**
  * @author giok57
@@ -53,6 +58,12 @@ import java.net.*;
  * Time: 17:18
  */
 public class Utils {
+
+    // Constants used for different security types
+    public static final String PSK = "PSK";
+    public static final String WEP = "WEP";
+    public static final String EAP = "EAP";
+    public static final String OPEN = "Open";
 
     private static final int MAXRETRIES = 3;
     private static final int TIMEOUT = 1000;
@@ -77,38 +88,199 @@ public class Utils {
     }
 
     /**
-     *
+     * Support MAX one redirect
      * @param surl
      * @param returnNoConnection
      * @param returnNoRedirect
      * @return
      */
     public static String isRedirect(String surl, String returnNoConnection, String returnNoRedirect){
-        String redirect = null;
+        String redirContent = getRedirContent(surl, "", 0, returnNoRedirect, returnNoConnection);
+
+        return redirContent;
+    }
+
+    /**
+     * @return The security of a given {@link ScanResult}.
+     */
+    public static String getScanResultSecurity(ScanResult scanResult) {
+        final String cap = scanResult.capabilities;
+        final String[] securityModes = { WEP, PSK, EAP };
+        for (int i = securityModes.length - 1; i >= 0; i--) {
+            if (cap.contains(securityModes[i])) {
+                return securityModes[i];
+            }
+        }
+
+        return OPEN;
+    }
+
+    public static String normalizeUrl(final String taintedURL) throws MalformedURLException{
+        final URL url;
+        try
+        {
+            url = new URI(taintedURL).normalize().toURL();
+        }
+        catch (URISyntaxException e) {
+            throw new MalformedURLException(e.getMessage());
+        }
+
+        final String path = url.getPath().replace("/$", "");
+        final SortedMap<String, String> params = createParameterMap(url.getQuery());
+        final int port = url.getPort();
+        final String queryString;
+
+        if (params != null)
+        {
+            // Some params are only relevant for user tracking, so remove the most commons ones.
+            for (Iterator<String> i = params.keySet().iterator(); i.hasNext();)
+            {
+                final String key = i.next();
+                if (key.startsWith("utm_") || key.contains("session"))
+                {
+                    i.remove();
+                }
+            }
+            queryString = "?" + canonicalize(params);
+        }
+        else
+        {
+            queryString = "";
+        }
+
+        return url.getProtocol() + "://" + url.getHost()
+                + (port != -1 && port != 80 ? ":" + port : "")
+                + path + queryString;
+    }
+
+
+    /**
+     *
+     * @param wifi1
+     * @param wifi2
+     * @return best hotspot from wifi1 e wifi2 with the oldest time of connection between them
+     */
+    public static WifiLazoooService.WifiHour betterWifi(WifiLazoooService.WifiHour wifi1,
+                                                        WifiLazoooService.WifiHour wifi2){
+        if (wifi1.wifiBean.isInternet() == true && wifi2.wifiBean.isInternet() == false){
+            return wifi1;
+        }
+        if (wifi2.wifiBean.isInternet() == true && wifi1.wifiBean.isInternet() == false){
+            return wifi2;
+        }
+        float weight1 = normalizeConnSpeed(wifi1.wifiBean.getConnSpeed()) + normalizeConnTime(wifi1.wifiBean.getConnTime());
+        float weight2 = normalizeConnSpeed(wifi2.wifiBean.getConnSpeed()) + normalizeConnTime(wifi2.wifiBean.getConnTime());
+        if(weight1 > weight2){
+            if(wifi1.time > wifi2.time){
+                wifi1.time = wifi2.time;
+            }
+            return wifi1;
+        }else {
+            if(wifi2.time > wifi1.time){
+                wifi2.time = wifi1.time;
+            }
+            return wifi2;
+        }
+    }
+
+    private static String getRedirContent(String surl, String cookies, int redirects,
+                                           String returnNoRedirect, String returnNoConnection){
+        String redirect = "";
+        boolean isRedirect = false;
         URL url = null;
         HttpURLConnection urlConnection = null;
         try {
+            surl = normalizeUrl(surl);
             url = new URL(surl);
             urlConnection = (HttpURLConnection) url.openConnection();
-            urlConnection.getInputStream();
-            BufferedReader br = new BufferedReader(new InputStreamReader(urlConnection.getInputStream()));
+            if(urlConnection instanceof HttpsURLConnection){
 
-            if (url.getHost().equals(urlConnection.getURL().getHost()) == false) {
-                StringBuilder response = new StringBuilder();
-                while ((redirect = br.readLine()) != null){
-                    response.append(redirect);
+                // Create a trust manager that does not validate certificate chains
+                TrustManager[] trustAllCerts = new TrustManager[] {new X509TrustManager() {
+                    public java.security.cert.X509Certificate[] getAcceptedIssuers() {
+                        return null;
+                    }
+                    public void checkClientTrusted(X509Certificate[] certs, String authType) {
+                    }
+                    public void checkServerTrusted(X509Certificate[] certs, String authType) {
+                    }
                 }
-                redirect = response.toString();
+                };
+
+                // set the all-trusting trust manager
+                SSLContext sc = SSLContext.getInstance("SSL");
+                sc.init(null, trustAllCerts, new java.security.SecureRandom());
+                ((HttpsURLConnection) urlConnection).setSSLSocketFactory(sc.getSocketFactory());
+                //HttpsURLConnection.setDefaultSSLSocketFactory(sc.getSocketFactory());
+
+                // Create all-trusting host name verifier
+                HostnameVerifier allHostsValid = new HostnameVerifier() {
+                    public boolean verify(String hostname, SSLSession session) {
+                        return true;
+                    }
+                };
+
+                // set the all-trusting host verifier
+                ((HttpsURLConnection) urlConnection).setHostnameVerifier(allHostsValid);
+
+            }
+            urlConnection.setRequestProperty("Cookie", cookies);
+            urlConnection.addRequestProperty("Accept-Language", "en-US,en;q=0.8");
+            urlConnection.addRequestProperty("User-Agent", "Mozilla");
+
+            urlConnection.getInputStream();
+            int status = urlConnection.getResponseCode();
+            if (status != HttpURLConnection.HTTP_OK) {
+                if (status == HttpURLConnection.HTTP_MOVED_TEMP
+                        || status == HttpURLConnection.HTTP_MOVED_PERM
+                        || status == HttpURLConnection.HTTP_SEE_OTHER)
+                    isRedirect = true;
+            }
+            if (isRedirect) {
+
+                // get redirect url from "location" header field
+                String newUrl = urlConnection.getHeaderField("Location");
+
+                // get the cookie if need, for login
+                cookies = urlConnection.getHeaderField("Set-Cookie");
+
+                if(redirects <= 2){
+                    redirect = getRedirContent(newUrl, cookies, (redirects + 1), returnNoRedirect, returnNoConnection);
+                }else {
+                    return null;
+                }
+
             }else {
-                redirect = returnNoRedirect;
+
+                BufferedReader br = new BufferedReader(new InputStreamReader(urlConnection.getInputStream()));
+
+                if (redirects == 0 && (url.toString().equals(urlConnection.getURL().toString()))) {
+                    redirect = returnNoRedirect;
+                }else {
+                    StringBuilder response = new StringBuilder();
+                    while ((redirect = br.readLine()) != null){
+                        response.append(redirect);
+                    }
+                    redirect = response.toString();
+                }
             }
         }catch (MalformedURLException mue){
             Log.e("SERVICE-UTILS", "malformed url exception");
         }catch (IOException ioe){
-            redirect = returnNoConnection;
-        }finally{
+            if(redirects == 0){
+                redirect = returnNoConnection;
+            }else {
+                redirect = "";
+            }
+        }catch (KeyManagementException kme){
+            redirect = "";
+        }catch (NoSuchAlgorithmException nsa){
+            redirect = "";
+        }
+        finally{
             urlConnection.disconnect();
         }
+
         return redirect;
     }
 
@@ -164,7 +336,12 @@ public class Utils {
                 float seconds = (endTime-startTime)/1000.0f;
                 float bandwidth = ((kilobits/1000) / seconds);  //Megabits-per-second
 
-                return bandwidth;
+                float f = 0.11765f / (TIMEOUT * 4);
+                if(bandwidth < f){
+                    return f;
+                }else {
+                    return bandwidth;
+                }
             } catch (IOException e) {
                 return 0.11765f / (TIMEOUT * 4);
                 /*if(repeat < MAXRETRIES){
@@ -177,6 +354,8 @@ public class Utils {
             return -1;
         }
     }
+
+
 
     private static float normalizeConnTime(int connTime){
         if(connTime > 60*60){
@@ -202,32 +381,106 @@ public class Utils {
         return nr;
     }
 
+    private static SortedMap<String, String> createParameterMap(final String queryString) {
+        if (queryString == null || queryString.isEmpty())
+        {
+            return null;
+        }
+
+        final String[] pairs = queryString.split("&");
+        final Map<String, String> params = new HashMap<String, String>(pairs.length);
+
+        for (final String pair : pairs)
+        {
+            if (pair.length() < 1)
+            {
+                continue;
+            }
+
+            String[] tokens = pair.split("=", 2);
+            for (int j = 0; j < tokens.length; j++)
+            {
+                try
+                {
+                    tokens[j] = URLDecoder.decode(tokens[j], "UTF-8");
+                }
+                catch (UnsupportedEncodingException ex)
+                {
+                    ex.printStackTrace();
+                }
+            }
+            switch (tokens.length)
+            {
+                case 1:
+                {
+                    if (pair.charAt(0) == '=')
+                    {
+                        params.put("", tokens[0]);
+                    }
+                    else
+                    {
+                        params.put(tokens[0], "");
+                    }
+                    break;
+                }
+                case 2:
+                {
+                    params.put(tokens[0], tokens[1]);
+                    break;
+                }
+            }
+        }
+
+        return new TreeMap<String, String>(params);
+    }
+
     /**
+     * Canonicalize the query string.
      *
-     * @param wifi1
-     * @param wifi2
-     * @return best hotspot from wifi1 e wifi2 with the oldest time of connection between them
+     * @param sortedParamMap Parameter name-value pairs in lexicographical order.
+     * @return Canonical form of query string.
      */
-    public static WifiLazoooService.WifiHour betterWifi(WifiLazoooService.WifiHour wifi1,
-                                                        WifiLazoooService.WifiHour wifi2){
-        if (wifi1.wifiBean.isInternet() == true && wifi2.wifiBean.isInternet() == false){
-            return wifi1;
+    private static String canonicalize(final SortedMap<String, String> sortedParamMap)
+    {
+        if (sortedParamMap == null || sortedParamMap.isEmpty())
+        {
+            return "";
         }
-        if (wifi2.wifiBean.isInternet() == true && wifi1.wifiBean.isInternet() == false){
-            return wifi2;
+
+        final StringBuffer sb = new StringBuffer(350);
+        final Iterator<Map.Entry<String, String>> iter = sortedParamMap.entrySet().iterator();
+
+        while (iter.hasNext())
+        {
+            final Map.Entry<String, String> pair = iter.next();
+            sb.append(percentEncodeRfc3986(pair.getKey()));
+            sb.append('=');
+            sb.append(percentEncodeRfc3986(pair.getValue()));
+            if (iter.hasNext())
+            {
+                sb.append('&');
+            }
         }
-        float weight1 = normalizeConnSpeed(wifi1.wifiBean.getConnSpeed()) + normalizeConnTime(wifi1.wifiBean.getConnTime());
-        float weight2 = normalizeConnSpeed(wifi2.wifiBean.getConnSpeed()) + normalizeConnTime(wifi2.wifiBean.getConnTime());
-        if(weight1 > weight2){
-            if(wifi1.time > wifi2.time){
-                wifi1.time = wifi2.time;
-            }
-            return wifi1;
-        }else {
-            if(wifi2.time > wifi1.time){
-                wifi2.time = wifi1.time;
-            }
-            return wifi2;
+
+        return sb.toString();
+    }
+
+    /**
+     * Percent-encode values according the RFC 3986. The built-in Java URLEncoder does not encode
+     * according to the RFC, so we make the extra replacements.
+     *
+     * @param string Decoded string.
+     * @return Encoded string per RFC 3986.
+     */
+    private static String percentEncodeRfc3986(final String string)
+    {
+        try
+        {
+            return URLEncoder.encode(string, "UTF-8").replace("+", "%20").replace("*", "%2A").replace("%7E", "~");
+        }
+        catch (UnsupportedEncodingException e)
+        {
+            return string;
         }
     }
 }

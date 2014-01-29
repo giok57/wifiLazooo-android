@@ -13,8 +13,9 @@
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/gen" isTestSource="false" generated="true" />
     </content>
-    <orderEntry type="jdk" jdkName="Android SDK" jdkType="Android SDK" />
+    <orderEntry type="jdk" jdkName="Android 4.4 Platform" jdkType="Android SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="google-play-services" level="project" />
   </component>
 </module>
 

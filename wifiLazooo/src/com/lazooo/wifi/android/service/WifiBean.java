@@ -25,6 +25,11 @@ package com.lazooo.wifi.android.service;
  LazoooTeam
  */
 
+import android.location.Location;
+
+import java.util.List;
+import java.util.Set;
+
 /**
  * @author giok57
  * @email gioelemeoni@gmail.com
@@ -34,37 +39,42 @@ package com.lazooo.wifi.android.service;
  * Time: 09:14
  */
 public class WifiBean {
-    private boolean isProtected;
+    private String security;
     private boolean isRedirect;
+    private Set<String> wifiAround;
     private String wifiId;
     private String ssid;
-    private String mac;
+    private Set<String> macs;
     private String redirectPage;
+    private Set<Location> locations;
     private int connTime;
     private boolean isInternet;
-    private float connSpeed;
+    private Avg connSpeed;
     private int signStr;
 
-    public WifiBean(String wifiId, boolean isProtected, boolean isRedirect, String ssid, String mac, String redirectPage,
-                    int connTime, float connSpeed, int signStr, boolean isInternet) {
+    public WifiBean(double latitude, double longitude, String wifiId, String security, boolean isRedirect, String ssid,
+                    Set<String> mac, Set<String> wifiAround, String redirectPage,
+                    int connTime, float connSpeed, int signStr, boolean isInternet, Set<Location> locations) {
         this.wifiId = wifiId;
-        this.isProtected = isProtected;
+        this.security = security;
         this.redirectPage = redirectPage;
         this.isRedirect = isRedirect;
         this.ssid = ssid;
-        this.mac = mac;
+        this.macs = mac;
+        this.wifiAround = wifiAround;
         this.isInternet = isInternet;
         this.connTime = connTime;
-        this.connSpeed = connSpeed;
+        this.connSpeed = new Avg(connSpeed);
         this.signStr = signStr;
+        this.locations = locations;
     }
 
-    public boolean isProtected() {
-        return isProtected;
+    public String getSecurity() {
+        return security;
     }
 
-    public void setProtected(boolean isProtected) {
-        this.isProtected = isProtected;
+    public void setSecurity(String security) {
+        this.security = security;
     }
 
     public String getSsid() {
@@ -73,14 +83,6 @@ public class WifiBean {
 
     public void setSsid(String ssid) {
         this.ssid = ssid;
-    }
-
-    public String getMac() {
-        return mac;
-    }
-
-    public void setMac(String mac) {
-        this.mac = mac;
     }
 
     public int getConnTime() {
@@ -92,11 +94,11 @@ public class WifiBean {
     }
 
     public float getConnSpeed() {
-        return connSpeed;
+        return connSpeed.avg;
     }
 
     public void setConnSpeed(float connSpeed) {
-        this.connSpeed = connSpeed;
+        this.connSpeed.addVal(connSpeed);
     }
 
     public int getSignStr() {
@@ -139,18 +141,96 @@ public class WifiBean {
         this.redirectPage = redirectPage;
     }
 
+    public Set<String> getWifiAround() {
+        return wifiAround;
+    }
+
+    public void setWifiAround(Set<String> wifiAround) {
+        this.wifiAround = wifiAround;
+    }
+
+    public Set<String> getMacs() {
+        return macs;
+    }
+
+    public void setMacs(Set<String> macs) {
+        this.macs = macs;
+    }
+
+    public Set<Location> getLocations() {
+        return locations;
+    }
+
+    public void setLocations(Set<Location> locations) {
+        this.locations = locations;
+    }
+
     @Override
     public String toString() {
         return "WifiBean{" +
-                "isProtected=" + isProtected +
+                "security='" + security + '\'' +
                 ", isRedirect=" + isRedirect +
+                ", wifiAround=" + wifiAround +
                 ", wifiId='" + wifiId + '\'' +
                 ", ssid='" + ssid + '\'' +
-                ", mac='" + mac + '\'' +
+                ", macs=" + macs +
+                ", redirectPage='" + redirectPage + '\'' +
+                ", locations=" + locations +
                 ", connTime=" + connTime +
                 ", isInternet=" + isInternet +
                 ", connSpeed=" + connSpeed +
                 ", signStr=" + signStr +
                 '}';
+    }
+
+    public static class Avg{
+        float avg;
+        float sum;
+        int nr;
+        Avg(float val){
+            this.avg = val;
+            this.sum = val;
+            this.nr = 1;
+        }
+        Avg(){
+            avg = 0;
+            sum = 0;
+            nr = 0;
+        }
+
+        void addVal(float val){
+            sum += val;
+            nr++;
+            avg = (sum / nr);
+        }
+
+        float getAvg(){
+            return avg;
+        }
+
+        @Override
+        public String toString(){
+            return String.valueOf(avg);
+        }
+    }
+
+    public static class Location{
+        float accurancy;
+        double lat;
+        double lon;
+        Location(double lat, double lon, float accurancy){
+            this.lat = lat;
+            this.lon = lon;
+            this.accurancy = accurancy;
+        }
+
+        @Override
+        public String toString() {
+            return "Location{" +
+                    "accurancy=" + accurancy +
+                    ", lat=" + lat +
+                    ", lon=" + lon +
+                    '}';
+        }
     }
 }
