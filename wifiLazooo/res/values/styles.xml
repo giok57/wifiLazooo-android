@@ -1,22 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <style name="ExampleTheme" parent="Theme.Sherlock.Light">
 
-        <item name="android:icon">@drawable/ic_launcher</item>
-        <item name="android:divider">@drawable/abs__list_divider_holo_light</item>
-
-        <item name="actionBarStyle">@style/Widget.Lazooo.ActionBar</item>
-        <item name="android:actionBarStyle">@style/Widget.Lazooo.ActionBar</item>
-    </style>
-
-    <style name="Widget.Lazooo.ActionBar" parent="Widget.Sherlock.ActionBar">
-        <item name="android:background">#ff222222</item>
-        <item name="background">#ff222222</item>
-        <item name="android:titleTextStyle">@style/Widget.Lazooo.ActionBarTitle</item>
-    </style>
-
-    <style name="Widget.Lazooo.ActionBarTitle" parent="TextAppearance.Sherlock.Widget.ActionBar.Title">
-        <item name="android:textColor">@color/wifilazooo</item>
-    </style>
 </resources>

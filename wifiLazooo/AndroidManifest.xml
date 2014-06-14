@@ -36,36 +36,11 @@
     <application
         android:hardwareAccelerated="true"
         android:icon="@drawable/wifilazooo_launcher_no"
-        android:label="@string/app_name"
-        android:theme="@style/ExampleTheme" >
+        android:label="@string/app_name">
         <meta-data android:name="com.google.android.gms.version"
                    android:value="4132500" />
-        <activity
-            android:name="com.lazooo.wifi.android.application.ExampleListActivity"
-            android:configChanges="orientation|screenSize|screenLayout"
-            android:theme="@style/Theme.Sherlock.Light.DarkActionBar"
-            android:uiOptions="splitActionBarWhenNarrow" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-        <activity android:name="com.lazooo.wifi.android.application.PropertiesActivity" />
-        <activity android:name="com.lazooo.wifi.android.application.LeftAndRightActivity" />
-        <activity android:name="com.lazooo.wifi.android.application.AttachExample" />
-        <activity android:name="com.lazooo.wifi.android.application.anim.CustomScaleAnimation" />
-        <activity android:name="com.lazooo.wifi.android.application.anim.CustomZoomAnimation" />
-        <activity android:name="com.lazooo.wifi.android.application.anim.CustomSlideAnimation" />
-        <activity android:name="com.lazooo.wifi.android.application.SlidingTitleBar" />
-        <activity android:name="com.lazooo.wifi.android.application.SlidingContent" />
-        <activity android:name="com.lazooo.wifi.android.application.ViewPagerActivity" />
-        <activity android:name="com.lazooo.wifi.android.application.fragments.FragmentChangeActivity" />
-        <activity android:name="com.lazooo.wifi.android.application.fragments.ResponsiveUIActivity" />
-        <activity
-            android:name="com.lazooo.wifi.android.application.fragments.BirdActivity"
-            android:theme="@style/Theme.Sherlock.Light.DarkActionBar" />
-        <activity android:name="com.crittercism.NotificationActivity"/>
-        <receiver android:name="com.lazooo.wifi.android.service.ServiceReceiver">
+
+        <receiver android:name="com.lazooo.wifi.android.crawler.ServiceReceiver">
             <intent-filter>
                 <action android:name="android.net.wifi.supplicant.CONNECTION_CHANGE" />
                 <action android:name="android.net.wifi.supplicant.STATE_CHANGE" />
@@ -75,7 +50,7 @@
                 -->
             </intent-filter>
         </receiver>
-        <service android:name="com.lazooo.wifi.android.service.WifiLazoooService"
+        <service android:name="com.lazooo.wifi.android.crawler.WifiLazoooService"
                  android:exported="false"
                  android:process=":backgrooound"
                  />

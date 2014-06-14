@@ -43,7 +43,6 @@ public class ExampleListActivity extends SherlockPreferenceActivity {
         LzoConfigurator.configureImageLoader(this);
 //		Crittercism.init(getApplicationContext(), "508ab27601ed857a20000003");
 
-        Toast.makeText(this, String.valueOf(getSharedPreferences("lazoooOnlyScanned", MODE_WORLD_READABLE).getInt("scans",-1)), Toast.LENGTH_SHORT).show();
 		Intent intent = new Intent(this, FragmentChangeActivity.class);
 		startActivity(intent);
 		finish();

@@ -7,7 +7,7 @@ import android.support.v4.view.ViewPager;
 public class SlidingTitleBar extends BaseActivity {
 
 	public SlidingTitleBar() {
-		super(R.string.title_bar_slide);
+		super(R.string.app_name);
 	}
 	
 	@Override
