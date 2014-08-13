@@ -1,0 +1,8 @@
+[3 ottobre 2013 v0]
+L'attività di prova che viene lanciata è MainTest. Lì viene inizializzato il menù.
+
+Se vuoi aggiungere/togliere voci al menù devi agire su SlidingMenuFragment.
+Non toccare mai per nessun motivo Section e Section Item. Il layout degli elementi del menù viene descritto in
+slidingmenu_sectionitem.xml.
+Se vuoi modificare i colori del menu devi andare su values->color, così come se vuoi modoficare dimensioni del menu su
+values->dimens

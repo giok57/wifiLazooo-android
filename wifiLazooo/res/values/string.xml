@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="aroundme">Intorno a te</string>
+    <string name="map">Mappa</string>
+    <string name="search">Ricerca</string>
+    <string name="myactivity">Le mie attività</string>
+    <string name="search_hint">Digita qui il testo da ricercare</string>
+    <string name="button_search">Ricerca</string>
+</resources>

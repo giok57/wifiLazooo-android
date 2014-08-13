@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <fragment
+<<<<<<< HEAD:wifiLazooo/res/layout/map_test.xml
+        android:id="@+id/map"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        class="com.google.android.gms.maps.SupportMapFragment"/>
+=======
+            android:id="@+id/map"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            class="com.google.android.gms.maps.SupportMapFragment"/>
+>>>>>>> de89565b5d704e018c8ee9ccb42f77d6645af5b4:wifiLazooo/res/layout/map_fragment.xml
+
+</LinearLayout>
